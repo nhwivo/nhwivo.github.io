@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: default
 title:  "Processing of Multiple Sequence Alignment Data"
-date:   2022-07-19 20:16:29 -0400
-categories: Kawahara Lab @ UF
+parent: My Projects
+nav_order: 1
 ---
 ### Introduction
 ---------------------------------------------------------------
