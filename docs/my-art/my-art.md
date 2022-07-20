@@ -7,4 +7,4 @@ permalink: /docs/my-art
 ---
 ### My Artworks!
 ---------------------------------------------------------------
-I enjoy making art in my free time, and I hope you enjoy looking at them (:
+I enjoy making art in my free time. Here are some of my work.
