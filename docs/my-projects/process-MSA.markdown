@@ -56,22 +56,11 @@ head -c 550 _BMORI_R.fas  # check the first 550 characters of the nedwly created
     >_BMORI_R
     TCAAAAAAGGAGAGAGTGCTTCCAACTGAGGGGGAGATCACCAAGTCAGTGTTCATGTCTCAATCGACTGATATTTATACGAACTTGGCTCTGGAGGATTGGTTGTATAAGAACATGGACTTCACAAATCATCATGTTATGATGGTGTGGAGAAATGAGCCATGTGTGGTTATTGGAAGACATCAAAATCCTTGGCTGGAGGCGAATGTTCCACTACTTTCTGAAAAAGAAATAGCTTTGGCACGTCGTAACAGTGGTGGTGGTACTGTTTATCATGACCGAGGAAATCT-----GAATATAACATTCTTTGCCCCACGTGAGAGATATGACA----------GAAATTACAATTTGAAGTTGATTAAG------AGAGCACTGTTCAGAAGTTTTGGCATTAAGTCAACTATTA--ATGAACGTCAGGACCTTATCGTCAGAGACAAATA-------------CAGTGATTGTTGGATCTGTATGGAATTAATGGACACATCACTAGACAAATTTTACAAATTTATATGTGAAAGAATG
 
+
 ### Object Oriented Python script to parse and clean the alignment data
 ---------------------------------------------------------------
 An OOP Python script was written to parse and clean the alignment data. This script was then tested on the small subset of 6 sequences created above. 
 In the Python script, a *Sequence* class was created with the appropriate attributes and methods to manipulate the data that will later be passed onto a Sequence object.  
-
-The pseudocode is as follow:
-- Open the file that contains the sequences
-- Iterate through every line in the file 
-    - The MSA file is similiar to a fasta file, in that each sequences takes up 2 lines, the first starts with `>` and the sequence's name, the second contains the sequence information itself. Therefore the file can be parsed easily. 
-- Parse the file depending on which line it is using Python dictionary 
-- For the reference genome: 
-    - Determine the ranges of the flanking regions - which will then be used to clean other sequences
-- For the rest of the sequences: 
-    - Use the ranges above as a guide to remove information in flanking regions 
-- Save the processed sequences into a new file. 
-
 
 
 ```python
@@ -184,6 +173,7 @@ class Sequence:
                 value = self.seqdict[key]  # re-assign the new/edited sequence to the name
 ```
 
+
 ### Running the script above on the smaller subset
 ---------------------------------------------------------------
 To make sure the script works, I tried it on the subset of 5 sequences created from before.
@@ -214,6 +204,7 @@ if __name__ == '__main__':
             f.write(value)
             f.write('\n')
 ```
+
 
 ##### Before sequence cleaning: 
 Below, it can be seen that *L0000444_LEP31542_Noctuidae_Lymantriinae_Spilosoma_lubricipeda* has 2 flanking regions that contain sequence data. These 2 regions will be compared with the results from the cleaning done above.
@@ -432,6 +423,7 @@ cat programs/clean_seq.py  # printing the content of the executable script
                 
         print("Results saved - program finished")
 
+
 ### Making sure the executable file works
 ---------------------------------------------------------------
 In the first cell below, "!" prefix is used to indicate command line to Jupyter Notebook. The inputs are the same files used before. The resulting file, "cleaned_result.fas" is the same as the cleaned result from above, showing that the edited script for the command line works.
@@ -476,7 +468,3 @@ As seen in a snipet of the cleaned result below, flanking regions between other 
 
 ![MSA_result](/assets/img/process_MSA_result.png)
 
-
-```python
-
-```
