@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About me
-permalink: /about/
+permalink: /
 nav_order: 1
 ---
 
