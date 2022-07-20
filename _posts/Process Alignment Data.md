@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Processing of Multiple Sequence Alignment Data"
+date:   2022-07-19 20:16:29 -0400
+categories: jekyll update
+---
+
 <h1><center>Processing of Multiple Sequence Alignment Data</center></h1>  
 <h5><center>Nhi Vo</center></h5>
 
