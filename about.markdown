@@ -2,6 +2,7 @@
 layout: default
 title: About me !
 permalink: /about/
+nav_order: 1
 ---
 
 Hello. My name is Nhi Vo, I'm currently an undergraduate student at Purdue University. 
