@@ -12,7 +12,7 @@ While working with Dr. Martinez, a postdoc at the <a href="https://www.floridamu
 
 ![MSA_problem](/assets/img/process_MSA_problem.png)
 
-Below, I describe the processes I took to solve this problem, and the final executable script used to clean the MSA file.
+Below, I described the processes I took to solve this problem, and presented the final executable script used to clean the MSA file. Both Python and Bash were used in different parts of the project.  
 
 ### Creating a smaller subset of the data
 ---------------------------------------------------------------
