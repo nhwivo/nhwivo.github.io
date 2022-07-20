@@ -472,7 +472,7 @@ done
 ---------------------------------------------------------------
 As seen in a snipet of the cleaned result below, flanking regions between other sequences are cleaned based on the reference genome _BMORI_R.
 
-![MSA_result](/assets/img/process_MSA_result.png.png)
+![MSA_result](/assets/img/process_MSA_result.png)
 
 
 ```python
