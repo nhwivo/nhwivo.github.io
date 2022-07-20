@@ -16,7 +16,7 @@ For my final project in the BIOL595 course at Purdue, I coded a Python game usin
 <a href="https://firealpaca.com/" target="_blank">FireAlpaca</a>, a free Digital Painting Software, and the Wacom Intuos tablet were used for all the digital arts for this project.
 
 <figure>
-<img src="assets/img/biol595proj_img/Screenshot (259).png" alt="Trulli" style="width:80%">
+<img src="/assets/img/biol595proj_img/Screenshot (259).png" alt="Trulli" style="width:80%">
 </figure>
 
 ### Cut Screens - Story
@@ -25,7 +25,7 @@ When the player interacts with an NPC, a cutscene like the one below would play.
 
 </br>
 <figure>
-<img src="assets/img/biol595proj_img/ezgif-5-d847112642.gif" alt="Trulli" style="width:80%">
+<img src="/assets/img/biol595proj_img/ezgif-5-d847112642.gif" alt="Trulli" style="width:80%">
 </figure>
 
 
@@ -58,19 +58,19 @@ Below are some sketches that did not make it into the final game.
 
 </br>
 <figure>
-<img src="assets/img/biol595proj_img/bacteriophage.png" alt="Trulli" style="width:70%">
+<img src="/assets/img/biol595proj_img/bacteriophage.png" alt="Trulli" style="width:70%">
 </figure>
 
-<img src="assets/img/biol595proj_img/ebola.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
-<img src="assets/img/biol595proj_img/ampullavirus.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/assets/img/biol595proj_img/ebola.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/assets/img/biol595proj_img/ampullavirus.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
 <p style="clear: both;">
 
-<img src="assets/img/biol595proj_img/screen2-background.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
-<img src="assets/img/biol595proj_img/screen2-heart_bg.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/assets/img/biol595proj_img/screen2-background.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="/assets/img/biol595proj_img/screen2-heart_bg.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
 <p style="clear: both;">
 
 <figure>
-<img src="assets/img/biol595proj_img/screen2-lungs_bg.png" alt="Trulli" style="width:70%">
+<img src="/assets/img/biol595proj_img/screen2-lungs_bg.png" alt="Trulli" style="width:70%">
 </figure>
 
 ### main.py
