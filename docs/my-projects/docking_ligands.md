@@ -1,4 +1,10 @@
-<h2><center>Molecular Docking of ligands from DockCoV2 Database and generated ligands</center></h2>
+---
+layout: default
+title:  "Molecular Docking of Drug Molecules"
+parent: My Projects
+nav_order: 3
+---
+<h2><center>Molecular Docking of Ligands from DockCoV2 Database and generated ligands</center></h2>
 
 ### Introduction
 ---------------------------------------------------------------
@@ -334,7 +340,7 @@ boxplot(dc2x,ylim=lmts, font.main = 1,
 
 
     
-![png](output_23_0.png)
+![png](/assets/img/docking_ligands_img/output_23_0.png)
     
 
 
@@ -380,7 +386,7 @@ hist(dc2x, breaks=50, font.main = 1,
 
 
     
-![png](output_27_0.png)
+![png](/assets/img/docking_ligands_img/output_27_0.png)
     
 
 
@@ -406,6 +412,6 @@ boxplot(dc2x, horizontal = TRUE)
 
 
     
-![png](output_29_0.png)
+![png](/assets/img/docking_ligands_img/output_29_0.png)
     
 
