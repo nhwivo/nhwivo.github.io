@@ -1,8 +1,14 @@
+---
+layout: default
+title:  "Molecular Similarity of Drug Molecules"
+parent: My Projects
+nav_order: 2
+---
 <h1><center>Fingerprinting and Molecular Similarity of Drug Molecules</center></h1>  
 
 ### Introduction
 --------------------------------------------------------------------------------
-As part of my research in [Kihara Bioinformatics Laboratory](https://kiharalab.org/) at Purdue University, I was responsible for comparing the molecular similarity within and between different drug datasets. In the codes below, I used **[RDKit](https://www.rdkit.org/)**, an open-Source Cheminformatics Software, to generate molecular fingerprints of compounds, which are then used to calculate the similarities between compounds in different datasets. 
+As part of my research in the <a href="https://kiharalab.org/" target="_blank">Kihara Bioinformatics Laboratory</a> at Purdue University, I was responsible for comparing the molecular similarity within and between different drug datasets. In the codes below, I used **[RDKit](https://www.rdkit.org/)**, an open-Source Cheminformatics Software, to generate molecular fingerprints of compounds, which are then used to calculate the similarities between compounds in different datasets. 
 
 There are several similarity metrics that can be used to compute molecular similarity, but I used **Tanimoto similarity**, which is also the default metric used in RDKit. The distribution of computed similarities are then visualized with a histogram. To visually check the results, molecules from the 3 highest scoring and lowest scoring pairs were drawn using RDKit (_Note_: I was not able to display molecules within a pair next to each other, therefore each molecule is displayed 1 by 1).
 
@@ -246,7 +252,7 @@ JAK2.tanimoto_plot(100)  # histogram with 100 bins
 
 
     
-![png](output_9_1.png)
+![png](/assets/img/tanimoto_calc_img/output_9_1.png)
     
 
 
@@ -263,37 +269,37 @@ JAK2.draw_top3(JAK2.highest3_tanimoto)
 
 
     
-![png](output_10_1.png)
+![png](/assets/img/tanimoto_calc_img/output_10_1.png)
     
 
 
 
     
-![png](output_10_2.png)
+![png](/assets/img/tanimoto_calc_img/output_10_2.png)
     
 
 
 
     
-![png](output_10_3.png)
+![png](/assets/img/tanimoto_calc_img/output_10_3.png)
     
 
 
 
     
-![png](output_10_4.png)
+![png](/assets/img/tanimoto_calc_img/output_10_4.png)
     
 
 
 
     
-![png](output_10_5.png)
+![png](/assets/img/tanimoto_calc_img/output_10_5.png)
     
 
 
 
     
-![png](output_10_6.png)
+![png](/assets/img/tanimoto_calc_img/output_10_6.png)
     
 
 
@@ -310,37 +316,37 @@ JAK2.draw_top3(JAK2.lowest3_tanimoto)
 
 
     
-![png](output_11_1.png)
+![png](/assets/img/tanimoto_calc_img/output_11_1.png)
     
 
 
 
     
-![png](output_11_2.png)
+![png](/assets/img/tanimoto_calc_img/output_11_2.png)
     
 
 
 
     
-![png](output_11_3.png)
+![png](/assets/img/tanimoto_calc_img/output_11_3.png)
     
 
 
 
     
-![png](output_11_4.png)
+![png](/assets/img/tanimoto_calc_img/output_11_4.png)
     
 
 
 
     
-![png](output_11_5.png)
+![png](/assets/img/tanimoto_calc_img/output_11_5.png)
     
 
 
 
     
-![png](output_11_6.png)
+![png](/assets/img/tanimoto_calc_img/output_11_6.png)
     
 
 
@@ -370,7 +376,7 @@ COVID.tanimoto_plot(100)
 
 
     
-![png](output_14_1.png)
+![png](/assets/img/tanimoto_calc_img/output_14_1.png)
     
 
 
@@ -386,25 +392,25 @@ COVID.draw_top3(COVID.highest3_tanimoto)
 
 
     
-![png](output_15_1.png)
+![png](/assets/img/tanimoto_calc_img/output_15_1.png)
     
 
 
 
     
-![png](output_15_2.png)
+![png](/assets/img/tanimoto_calc_img/output_15_2.png)
     
 
 
 
     
-![png](output_15_3.png)
+![png](/assets/img/tanimoto_calc_img/output_15_3.png)
     
 
 
 
     
-![png](output_15_4.png)
+![png](/assets/img/tanimoto_calc_img/output_15_4.png)
     
 
 
@@ -421,37 +427,37 @@ COVID.draw_top3(COVID.lowest3_tanimoto)
 
 
     
-![png](output_16_1.png)
+![png](/assets/img/tanimoto_calc_img/output_16_1.png)
     
 
 
 
     
-![png](output_16_2.png)
+![png](/assets/img/tanimoto_calc_img/output_16_2.png)
     
 
 
 
     
-![png](output_16_3.png)
+![png](/assets/img/tanimoto_calc_img/output_16_3.png)
     
 
 
 
     
-![png](output_16_4.png)
+![png](/assets/img/tanimoto_calc_img/output_16_4.png)
     
 
 
 
     
-![png](output_16_5.png)
+![png](/assets/img/tanimoto_calc_img/output_16_5.png)
     
 
 
 
     
-![png](output_16_6.png)
+![png](/assets/img/tanimoto_calc_img/output_16_6.png)
     
 
 
@@ -481,7 +487,7 @@ g_COVID.tanimoto_plot(100)
 
 
     
-![png](output_19_1.png)
+![png](/assets/img/tanimoto_calc_img/output_19_1.png)
     
 
 
@@ -498,37 +504,37 @@ g_COVID.draw_top3(g_COVID.highest3_tanimoto)
 
 
     
-![png](output_20_1.png)
+![png](/assets/img/tanimoto_calc_img/output_20_1.png)
     
 
 
 
     
-![png](output_20_2.png)
+![png](/assets/img/tanimoto_calc_img/output_20_2.png)
     
 
 
 
     
-![png](output_20_3.png)
+![png](/assets/img/tanimoto_calc_img/output_20_3.png)
     
 
 
 
     
-![png](output_20_4.png)
+![png](/assets/img/tanimoto_calc_img/output_20_4.png)
     
 
 
 
     
-![png](output_20_5.png)
+![png](/assets/img/tanimoto_calc_img/output_20_5.png)
     
 
 
 
     
-![png](output_20_6.png)
+![png](/assets/img/tanimoto_calc_img/output_20_6.png)
     
 
 
@@ -545,37 +551,37 @@ g_COVID.draw_top3(g_COVID.lowest3_tanimoto)
 
 
     
-![png](output_21_1.png)
+![png](/assets/img/tanimoto_calc_img/output_21_1.png)
     
 
 
 
     
-![png](output_21_2.png)
+![png](/assets/img/tanimoto_calc_img/output_21_2.png)
     
 
 
 
     
-![png](output_21_3.png)
+![png](/assets/img/tanimoto_calc_img/output_21_3.png)
     
 
 
 
     
-![png](output_21_4.png)
+![png](/assets/img/tanimoto_calc_img/output_21_4.png)
     
 
 
 
     
-![png](output_21_5.png)
+![png](/assets/img/tanimoto_calc_img/output_21_5.png)
     
 
 
 
     
-![png](output_21_6.png)
+![png](/assets/img/tanimoto_calc_img/output_21_6.png)
     
 
 
@@ -607,7 +613,7 @@ COVID_v_generatedCOVID.U_rank_test(COVID.tanimoto_list,g_COVID.tanimoto_list)
 
 
     
-![png](output_24_1.png)
+![png](/assets/img/tanimoto_calc_img/output_24_1.png)
     
 
 
@@ -624,37 +630,37 @@ COVID_v_generatedCOVID.draw_top3(COVID_v_generatedCOVID.highest3_tanimoto)
 
 
     
-![png](output_25_1.png)
+![png](/assets/img/tanimoto_calc_img/output_25_1.png)
     
 
 
 
     
-![png](output_25_2.png)
+![png](/assets/img/tanimoto_calc_img/output_25_2.png)
     
 
 
 
     
-![png](output_25_3.png)
+![png](/assets/img/tanimoto_calc_img/output_25_3.png)
     
 
 
 
     
-![png](output_25_4.png)
+![png](/assets/img/tanimoto_calc_img/output_25_4.png)
     
 
 
 
     
-![png](output_25_5.png)
+![png](/assets/img/tanimoto_calc_img/output_25_5.png)
     
 
 
 
     
-![png](output_25_6.png)
+![png](/assets/img/tanimoto_calc_img/output_25_6.png)
     
 
 
@@ -671,37 +677,37 @@ COVID_v_generatedCOVID.draw_top3(JAK2.lowest3_tanimoto)
 
 
     
-![png](output_26_1.png)
+![png](/assets/img/tanimoto_calc_img/output_26_1.png)
     
 
 
 
     
-![png](output_26_2.png)
+![png](/assets/img/tanimoto_calc_img/output_26_2.png)
     
 
 
 
     
-![png](output_26_3.png)
+![png](/assets/img/tanimoto_calc_img/output_26_3.png)
     
 
 
 
     
-![png](output_26_4.png)
+![png](/assets/img/tanimoto_calc_img/output_26_4.png)
     
 
 
 
     
-![png](output_26_5.png)
+![png](/assets/img/tanimoto_calc_img/output_26_5.png)
     
 
 
 
     
-![png](output_26_6.png)
+![png](/assets/img/tanimoto_calc_img/output_26_6.png)
     
 
 
@@ -731,7 +737,7 @@ COVID_v_generatedCOVID.U_rank_test(JAK2.tanimoto_list,g_COVID.tanimoto_list)
 
 
     
-![png](output_29_1.png)
+![png](/assets/img/tanimoto_calc_img/output_29_1.png)
     
 
 
@@ -748,43 +754,43 @@ JAK2_v_generatedCOVID.draw_top3(JAK2_v_generatedCOVID.highest3_tanimoto)
 
 
     
-![png](output_30_1.png)
+![png](/assets/img/tanimoto_calc_img/output_30_1.png)
     
 
 
 
     
-![png](output_30_2.png)
+![png](/assets/img/tanimoto_calc_img/output_30_2.png)
     
 
 
 
     
-![png](output_30_3.png)
+![png](/assets/img/tanimoto_calc_img/output_30_3.png)
     
 
 
 
     
-![png](output_30_4.png)
+![png](/assets/img/tanimoto_calc_img/output_30_4.png)
     
 
 
 
     
-![png](output_30_5.png)
+![png](/assets/img/tanimoto_calc_img/output_30_5.png)
     
 
 
 
     
-![png](output_30_6.png)
+![png](/assets/img/tanimoto_calc_img/output_30_6.png)
     
 
 
 
 ```python
-# LOWEST 2 TANIMOTO PAIRS
+# LOWEST 3 TANIMOTO PAIRS
 JAK2_v_generatedCOVID.draw_top3(JAK2_v_generatedCOVID.lowest3_tanimoto)
 ```
 
@@ -795,37 +801,37 @@ JAK2_v_generatedCOVID.draw_top3(JAK2_v_generatedCOVID.lowest3_tanimoto)
 
 
     
-![png](output_31_1.png)
+![png](/assets/img/tanimoto_calc_img/output_31_1.png)
     
 
 
 
     
-![png](output_31_2.png)
+![png](/assets/img/tanimoto_calc_img/output_31_2.png)
     
 
 
 
     
-![png](output_31_3.png)
+![png](/assets/img/tanimoto_calc_img/output_31_3.png)
     
 
 
 
     
-![png](output_31_4.png)
+![png](/assets/img/tanimoto_calc_img/output_31_4.png)
     
 
 
 
     
-![png](output_31_5.png)
+![png](/assets/img/tanimoto_calc_img/output_31_5.png)
     
 
 
 
     
-![png](output_31_6.png)
+![png](/assets/img/tanimoto_calc_img/output_31_6.png)
     
 
 
@@ -912,7 +918,7 @@ m
 
 
     
-![png](output_36_0.png)
+![png](/assets/img/tanimoto_calc_img/output_36_0.png)
     
 
 
