@@ -23,7 +23,6 @@ For my final project in the BIOL595 course at Purdue, I coded a Python game usin
 --------------------------------------------------------------------------------
 When the player interacts with an NPC, a cutscene like the one below would play. These cutscences are composed of multiple images, which get cycled through as the placer presses the `space` bar. A class named _CutScene_ when called creates an object that iterates through every image in a given folder and displays them one by one after `space` is pressed. 
 
-</br>
 <figure>
 <img src="/assets/img/biol595proj_img/ezgif-5-d847112642.gif" alt="Trulli" style="width:80%">
 </figure>
@@ -56,7 +55,6 @@ class CutScene(Screen):
 --------------------------------------------------------------------------------
 Below are some sketches that did not make it into the final game. 
 
-</br>
 <figure>
 <img src="/assets/img/biol595proj_img/bacteriophage.png" alt="Trulli" style="width:70%">
 </figure>
@@ -72,6 +70,7 @@ Below are some sketches that did not make it into the final game.
 <figure>
 <img src="/assets/img/biol595proj_img/screen2-lungs_bg.png" alt="Trulli" style="width:70%">
 </figure>
+
 
 ### main.py
 ----------------------------------------------------------------------
