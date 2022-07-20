@@ -8,7 +8,7 @@ categories: jekyll update
 ---------------------------------------------------------------
 While working with Joe Martinez, a postdoc at the [Kawahara lab](https://www.floridamuseum.ufl.edu/kawahara-lab/) - Musem of Natural History, I was presented with a problem pertaining to cleaning a multiple sequence alignment (MSA) file. This MSA file contained loci important to Martinez's research project, however, there were information between these loci that needed to be removed (seen in the image below). In the past, this problem has been solved by manually deleting regions between these loci. In this particular project, however, the number of regions to be cleaned was simply too large (385 sequences each with many loci), which proved tedious and time consuming to be done by hand. 
 
-![MSA_problem](images/process_MSA_problem.png.png)
+![MSA_problem](/assets/img/process_MSA_problem.png)
 
 Below, I describe the processes I took to solve this problem, and the final executable script used to clean the MSA file.
 
@@ -472,7 +472,7 @@ done
 ---------------------------------------------------------------
 As seen in a snipet of the cleaned result below, flanking regions between other sequences are cleaned based on the reference genome _BMORI_R.
 
-![MSA_result](images/process_MSA_result.png.png)
+![MSA_result](/assets/img/process_MSA_result.png.png)
 
 
 ```python
