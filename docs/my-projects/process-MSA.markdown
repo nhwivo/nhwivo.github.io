@@ -8,7 +8,7 @@ nav_order: 1
 
 ### Introduction
 ---------------------------------------------------------------
-While working with Dr. Martinez, a postdoc at the <a href="https://www.floridamuseum.ufl.edu/kawahara-lab/" target="_blank">Kawahara Lab</a> - Musem of Natural History, I was presented with a problem pertaining to cleaning a multiple sequence alignment (MSA) file. This MSA file contained loci important to Dr. Martinez's research project, however, there were information between these loci that needed to be removed (seen in the image below). In the past, this problem has been solved by manually deleting regions between these loci. In this particular project, however, the number of regions to be cleaned was simply too large (385 sequences each with many loci), which proved tedious and time consuming to be done by hand. 
+While working with Dr. Martinez, a postdoc at the <a href="https://www.floridamuseum.ufl.edu/kawahara-lab/" target="_blank">Kawahara Lab</a> - Museum of Natural History, I was presented with a problem pertaining to cleaning a multiple sequence alignment (MSA) file. This MSA file contained loci important to Dr. Martinez's research project, however, there were information between these loci that needed to be removed (seen in the image below). In the past, this problem has been solved by manually deleting regions between these loci. In this particular project, however, the number of regions to be cleaned was simply too large (385 sequences each with many loci), which proved tedious and time consuming to be done by hand. 
 
 ![MSA_problem](/assets/img/process_MSA_problem.png)
 
