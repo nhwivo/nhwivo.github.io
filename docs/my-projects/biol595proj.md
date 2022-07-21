@@ -59,10 +59,10 @@ The enemies in the game are pathogens. These enemies can be collected by the pla
 <img src="/assets/img/biol595proj_img/bacteriophage.png" alt="Trulli" style="width:100%">
 </figure>
 
-<img src="/assets/img/biol595proj_img/ebola.png" width="325"/> <img src="/assets/img/biol595proj_img/ampullavirus.png" width="325"/> 
+<img src="/assets/img/biol595proj_img/ebola.png" width="338"/> <img src="/assets/img/biol595proj_img/ampullavirus.png" width="338"/> 
 
 <p>Some interactive map designs:</p>
-<img src="/assets/img/biol595proj_img/screen2-background.png" width="325"/> <img src="/assets/img/biol595proj_img/screen2-heart_bg.png" width="325"/> 
+<img src="/assets/img/biol595proj_img/screen2-background.png" width="338"/> <img src="/assets/img/biol595proj_img/screen2-heart_bg.png" width="338"/> 
 
 <figure>
 <img src="/assets/img/biol595proj_img/screen2-lungs_bg.png" alt="Trulli" style="width:100%">
