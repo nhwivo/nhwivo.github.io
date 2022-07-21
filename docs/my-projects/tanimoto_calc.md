@@ -21,6 +21,14 @@ The reason for each of the comparisons doen below:
 - *JAK2 vs. JAK2* & *COVID vs. COVID*: to use as a reference/base line - to find what a relatively 'normal' similarity scores distribution among a drug dataset should be (the scores from within the generated drug dataset will be compared with these baselines) 
 - *COVID vs. generated_COVID* & *JAK2 vs. generated_COVID*: to see if the ML algorithm generated molecules based on the new inputs (COVID drug molecules), or if it was based on the JAK2 dataset that the paper used. 
 
+#### List of comparisons done (click to jump to section): 
+1. [JAK2 vs. JAK2](#JAK2)
+2. [COVID vs. COVID](#COVID)
+3. [generated_COVID vs. generated_COVID](#g_COVID)
+4. [COVID vs. generated_COVID](#C_v_g_COVID)
+5. [JAK2 vs. generated_COVID](#J_v_g_COVID)
+6. [Result Summary](#result)
+
 ### Setup
 ---------------------------------------------------------------
 
@@ -219,14 +227,6 @@ class DrugData:
 
 ### Molecular Similarity Comparisons of the datasets
 -----------------------------------------------------------------------
-#### List of comparisons done (click to jump to section): 
-1. [JAK2 vs. JAK2](#JAK2)
-2. [COVID vs. COVID](#COVID)
-3. [generated_COVID vs. generated_COVID](#g_COVID)
-4. [COVID vs. generated_COVID](#C_v_g_COVID)
-5. [JAK2 vs. generated_COVID](#J_v_g_COVID)
-6. [Result Summary](#result)
-
 #### 1. JAK2 vs. JAK2: <a class="anchor" id="JAK2"></a>
 
 
