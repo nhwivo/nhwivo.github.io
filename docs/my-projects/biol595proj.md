@@ -13,15 +13,15 @@ For my final project in the BIOL595 course at Purdue, I coded a Python game usin
 
 ### Digital Drawing Tools
 --------------------------------------------------------------------------------
-<a href="https://firealpaca.com/" target="_blank">FireAlpaca</a>, a free Digital Painting Software, and the Wacom Intuos tablet were used for all the digital arts for this project.
+<a href="https://firealpaca.com/" target="_blank">FireAlpaca</a>, a free Digital Painting Software, and a Wacom Intuos tablet were used to create all of the art for this project.
 
 <figure>
 <img src="/assets/img/biol595proj_img/Screenshot (259).png" alt="Trulli" style="width:100%">
 </figure>
 
-### Cut Screens - Story
+### Cut Scenes - Story
 --------------------------------------------------------------------------------
-When the player interacts with an NPC, a cutscene like the one below would play. These cutscences are composed of multiple images, which get cycled through as the placer presses the `space` bar. A class named _CutScene_ when called creates an object that iterates through every image in a given folder and displays them one by one after `space` is pressed. 
+When the player interacts with an NPC, a cutscene like the one below would play. These cutscences are composed of multiple images, which get cycled through as the placer presses the `space` bar. A class named _CutScene_ when called creates an object that iterates through every image in a given folder and displays them one by one after `space` is pressed. The design of the player character is Purdue Pete (a <a href="https://en.wikipedia.org/wiki/Purdue_Pete" target="_blank">mascot</a> of Purdue University).
 
 <figure>
 <img src="/assets/img/biol595proj_img/ezgif-5-d847112642.gif" alt="Trulli" style="width:100%">
@@ -54,7 +54,7 @@ class CutScene(Screen):
 ### Sketches and Ideas
 --------------------------------------------------------------------------------
 Below are some sketches that did not make it into the final game. 
-
+The enemies in the game are pathogens. These enemies can be collected by the player and mutated to potentially gain beneficial traits. Some enemy and their 'upgrades' designs:
 <figure>
 <img src="/assets/img/biol595proj_img/bacteriophage.png" alt="Trulli" style="width:100%">
 </figure>
@@ -63,6 +63,7 @@ Below are some sketches that did not make it into the final game.
 <img src="/assets/img/biol595proj_img/ampullavirus.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
 <p style="clear: both;">
 
+<p>Some interactive map designs:</p>
 <img src="/assets/img/biol595proj_img/screen2-background.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="/assets/img/biol595proj_img/screen2-heart_bg.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
 <p style="clear: both;">
@@ -74,7 +75,7 @@ Below are some sketches that did not make it into the final game.
 
 
 ### main.py
-----------------------------------------------------------------------
+--------------------------------------------------------------------------------
 The game was split into 3 Python scripts - main.py, sprites.py, and settings.py - for better organization of the codes. main.py consists of parent classes such as _Game_ and _Screen_, along with multiple child/subclasses of _Screen_ such as _CombatScreen_, _MapScreen_, etc.  
 Again, the codes cannot be run on this static site, but they are still presented below. 
 
@@ -389,6 +390,7 @@ if __name__ == '__main__':
     GAME = Game()  # create the game
     GAME.run_game()  # run the game
 ```
+
 
 ### sprites.py
 ----------------------------------------------------------------------
@@ -753,6 +755,7 @@ class HostileBullets(Bullets):
         self.rect.centery += self.dy
         self.hit_wall()  # check to see if bullets hit the wall
 ```
+
 
 ### settings.py
 -------------------------------------------------------------
