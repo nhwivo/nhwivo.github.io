@@ -13,20 +13,20 @@ I enjoy making art in my free time. Here are some of my work (click to jump to e
 
 I also have an art <a href="https://www.instagram.com/vovonart/" target="_blank">Instagram account</a> with some more of my work!
 
-### Crochet   <a class="anchor" id="crochet"></a>
+### Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>
 ----------------------------------------------------------------------------------
 #### Dragon Scale Dice Pouches: 
 These pouches were made as gifts for my friends who played DnD, a little drawstring pouch to hold their dice. 
 <div id="image-table">
     <table>
 	    <tr>
-    	    <td style="padding:10px">
+    	    <td style="padding:5px">
         	    <img src="/assets/img/my-art/crochet/dragon_pouch.jpg" width="220"/>
       	    </td>
-            <td style="padding:10px">
+            <td style="padding:5px">
             	<img src="/assets/img/my-art/crochet/dragon_pouch3.jpg" width="220"/>
             </td>
-            <td style="padding:10px">
+            <td style="padding:5px">
             	<img src="/assets/img/my-art/crochet/dragon_pouch2.jpg" width="220"/>
             </td>
         </tr>
@@ -55,7 +55,9 @@ These pouches were made as gifts for my friends who played DnD, a little drawstr
 
 
 ### Paintings   <a class="anchor" id="paintings"></a>
+--------------------------------------------------------------------------
 
 
 
 ### Drawings   <a class="anchor" id="drawings"></a>
+--------------------------------------------------------------------------
