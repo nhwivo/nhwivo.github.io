@@ -6,15 +6,25 @@ permalink: /docs/my-art
 ---
 ### My Artworks!
 ---------------------------------------------------------------
-I enjoy making art in my free time. Here are some of my work (click to jump to each section).
+I enjoy making art in my free time. Here are some of my work (click to jump to each section).  
 1. [Crocheted and knitted works](#crochet) 
 2. [Paintings](#paintings)
-3. [Drawings](#drawings)
+3. [Drawings](#drawings)  
+I also have an art <a href="https://www.instagram.com/vovonart/" target="_blank">Instagram account</a> with some more of my work!
 
 ### Crochet   <a class="anchor" id="crochet"></a>
+----------------------------------------------------------------------------------
 #### Dragon Scale Dice Pouches: 
 These pouches were made as gifts for my friends who played DnD, a little drawstring pouch to hold their dice.
 <img src="/assets/img/my-art/crochet/dragon_pouch.jpg" style="width:33%"/> <img src="/assets/img/my-art/crochet/dragon_pouch3.jpg" style="width:33%"/> <img src="/assets/img/my-art/crochet/dragon_pouch2.jpg" style="width:33%"/>  
+
+#### Hats!
+<img src="/assets/img/my-art/crochet/iggy_hat.jpg" style="width:33%"/> <img src="/assets/img/my-art/crochet/iggy_hat2.jpg" style="width:33%"/> <img src="/assets/img/my-art/crochet/knitted_hat.jpg" style="width:33%"/>  
+
+#### Plarn (plastic-yarn) Bag: 
+<figure>
+<img src="/assets/img/my-art/crochet/plarn_bag.jpg" alt="Trulli" style="width:100%">
+</figure>
 
 
 
