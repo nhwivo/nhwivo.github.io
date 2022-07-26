@@ -34,20 +34,16 @@ These pouches were made as gifts for my friends who played DnD, a little drawstr
 </div>
 
 #### Hats!
-<div id="image-table">
-    <table>
-	    <tr>
-    	    <td style="padding:10px">
-        	    <img src="/assets/img/my-art/crochet/iggy_hat.jpg" width="220"/>
-      	    </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/crochet/iggy_hat2.jpg" width="220"/>
-            </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/crochet/knitted_hat.jpg" width="220"/>
-            </td>
-        </tr>
-    </table>
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="/assets/img/my-art/crochet/iggy_hat.jpg" width="200"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="/assets/img/my-art/crochet/iggy_hat2.jpg" width="300"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="/assets/img/my-art/crochet/knitted_hat.jpg" width="400"/>
+     </div>
 </div>
 
 #### Plarn (plastic-yarn) Bag: 
