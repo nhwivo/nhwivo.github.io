@@ -15,8 +15,22 @@ I also have an art <a href="https://www.instagram.com/vovonart/" target="_blank"
 ### Crochet   <a class="anchor" id="crochet"></a>
 ----------------------------------------------------------------------------------
 #### Dragon Scale Dice Pouches: 
-These pouches were made as gifts for my friends who played DnD, a little drawstring pouch to hold their dice.
-<img src="/assets/img/my-art/crochet/dragon_pouch.jpg" style="width:33%"/> <img src="/assets/img/my-art/crochet/dragon_pouch3.jpg" style="width:33%"/> <img src="/assets/img/my-art/crochet/dragon_pouch2.jpg" style="width:33%"/>  
+These pouches were made as gifts for my friends who played DnD, a little drawstring pouch to hold their dice. 
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/crochet/dragon_pouch.jpg" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/crochet/dragon_pouch3.jpg" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/crochet/dragon_pouch2.jpg" width="220"/>
+            </td>
+        </tr>
+    </table>
+</div>
 
 #### Hats!
 <img src="/assets/img/my-art/crochet/iggy_hat.jpg" style="width:33%"/> <img src="/assets/img/my-art/crochet/iggy_hat2.jpg" style="width:33%"/> <img src="/assets/img/my-art/crochet/knitted_hat.jpg" style="width:33%"/>  
