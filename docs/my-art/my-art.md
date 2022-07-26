@@ -9,7 +9,8 @@ permalink: /docs/my-art
 I enjoy making art in my free time. Here are some of my work (click to jump to each section).  
 1. [Crocheted and knitted works](#crochet) 
 2. [Paintings](#paintings)
-3. [Drawings](#drawings)  
+3. [Drawings](#drawings)   
+
 I also have an art <a href="https://www.instagram.com/vovonart/" target="_blank">Instagram account</a> with some more of my work!
 
 ### Crochet   <a class="anchor" id="crochet"></a>
