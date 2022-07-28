@@ -38,13 +38,13 @@ The pattern for the pouch can be found on Ellie Lenz's <a href="https://www.yout
 These hats were made without any patterns. The green beanie is made by knitting a rectangle and sewing the sides together. 
 
 <div style="display:flex">
-     <div style="flex:1;padding-right:5px;">
+     <div style="flex:1;padding-right:2px;">
           <img src="/assets/img/my-art/crochet/iggy_hat.jpg" width="220"/>
      </div>
-     <div style="flex:1;padding-left:5px;">
+     <div style="flex:1;padding-left:2px;">
           <img src="/assets/img/my-art/crochet/iggy_hat2.jpg" width="220"/>
      </div>
-     <div style="flex:1;padding-left:5px;">
+     <div style="flex:1;padding-left:2px;">
           <img src="/assets/img/my-art/crochet/knitted_hat.jpg" width="220"/>
      </div>
 </div>
