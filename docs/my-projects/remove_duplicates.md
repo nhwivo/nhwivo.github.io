@@ -4,10 +4,10 @@
 ### Subsetting the MSA file
 -------------------------------------------
 2 loci have been chosen to test the script to make sure duplicates are removed correctly. L388, as seen in photo below, contains 2 duplicates that need to be removed. 
-![L388](L388_dup_problem.png)
+![L388](/assets/img/loci_duplication_img/L388_dup_problem.png)
 
 As for loci L389, there are 4 duplicates that need to be removed.  
-![L389](L389_dup_problem.png)
+![L389](/assets/img/loci_duplication_img/L389_dup_problem.png)
 
 
 ```bash
