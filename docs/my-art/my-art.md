@@ -75,10 +75,10 @@ The planter below was hand-built, a ceramics technique that does not involve the
         	    <img src="/assets/img/my-art/ceramics/cer_0a.png" width="220"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/crochet/cer_0b.png" width="220"/>
+            	<img src="/assets/img/my-art/ceramics/cer_0b.png" width="220"/>
             </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/crochet/cer_0c.png" width="220"/>
+            	<img src="/assets/img/my-art/ceramics/cer_0c.png" width="220"/>
             </td>
         </tr>
     </table>
@@ -93,10 +93,10 @@ This second planter was made using a pottery wheel, hence its sides are straight
         	    <img src="/assets/img/my-art/ceramics/cer_1c.png" width="220"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/crochet/cer_1b.png" width="220"/>
+            	<img src="/assets/img/my-art/ceramics/cer_1b.png" width="220"/>
             </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/crochet/cer_1a.png" width="220"/>
+            	<img src="/assets/img/my-art/ceramics/cer_1a.png" width="220"/>
             </td>
         </tr>
     </table>
