@@ -102,11 +102,83 @@ This second planter was made using a pottery wheel, hence its sides are straight
     </table>
 </div>
 
-
 ### Paintings   <a class="anchor" id="paintings"></a>
 --------------------------------------------------------------------------
-
+#### Acrylic Deathclaw Painting on Canvas:  
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/paintings/paint_0a.png" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/paintings/paint_0b.png" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/paintings/paint_0c.png" width="220"/>
+            </td>
+        </tr>
+    </table>
+</div>
 
 
 ### Drawings   <a class="anchor" id="drawings"></a>
 --------------------------------------------------------------------------
+#### Pencil:
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/drawings/draw_0.png" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/drawings/draw_1.png" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/drawings/draw_2.png" width="220"/>
+            </td>
+        </tr>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/drawings/draw_3a.png" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/drawings/draw_3b.png" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/drawings/draw_3c.png" width="220"/>
+            </td>
+        </tr>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/drawings/draw_4a.png" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/drawings/draw_4b.png" width="220"/>
+            </td>&nbsp;</td>
+        </tr>
+    </table>
+</div>
+
+#### Ink: 
+
+
+
+### Embroidery   <a class="anchor" id="embroidery"></a>
+--------------------------------------------------------------------------
+#### Flowers: 
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/embroidery/embr_0a.png" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/embroidery/embr_0b.png" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/embroidery/embr_0c.png" width="220"/>
+            </td>
+        </tr>
+    </table>
+</div>
