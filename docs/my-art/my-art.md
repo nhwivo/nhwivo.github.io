@@ -162,7 +162,8 @@ This second planter was made using a pottery wheel, hence its sides are straight
     </table>
 </div>
 
-#### Ink: 
+#### Ink:  
+
 <div id="image-table">
     <table>
 	    <tr>
@@ -171,6 +172,7 @@ This second planter was made using a pottery wheel, hence its sides are straight
       	    </td>
             <td style="padding:10px">
             	<img src="/assets/img/my-art/ink/ink_1.png" width="220"/>
+	    </td>
         </tr>
 	    <tr>
     	    <td style="padding:10px">
@@ -178,6 +180,7 @@ This second planter was made using a pottery wheel, hence its sides are straight
       	    </td>
             <td style="padding:10px">
             	<img src="/assets/img/my-art/ink/ink_3.png" width="220"/>
+	    </td>
         </tr>
     </table>
 </div>
