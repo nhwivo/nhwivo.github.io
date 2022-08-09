@@ -125,6 +125,7 @@ This second planter was made using a pottery wheel, hence its sides are straight
 ### Drawings   <a class="anchor" id="drawings"></a>
 --------------------------------------------------------------------------
 #### Pencil:
+
 <div id="image-table">
     <table>
 	    <tr>
@@ -155,7 +156,8 @@ This second planter was made using a pottery wheel, hence its sides are straight
       	    </td>
             <td style="padding:10px">
             	<img src="/assets/img/my-art/drawings/draw_4b.png" width="220"/>
-            </td>&nbsp;</td>
+            </td>
+	    <td>&nbsp;</td>
         </tr>
     </table>
 </div>
