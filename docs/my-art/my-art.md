@@ -109,13 +109,13 @@ This second planter was made using a pottery wheel, hence its sides are straight
     <table>
 	    <tr>
     	    <td style="padding:10px">
-        	    <img src="/assets/img/my-art/paintings/paint_0a.png" width="220"/>
+        	    <img src="/assets/img/my-art/paintings/paint_0c.png" width="220"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/paintings/paint_0b.png" width="220"/>
+            	<img src="/assets/img/my-art/paintings/paint_0a.png" width="220"/>
             </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/paintings/paint_0c.png" width="220"/>
+            	<img src="/assets/img/my-art/paintings/paint_0b.png" width="220"/>
             </td>
         </tr>
     </table>
@@ -161,7 +161,24 @@ This second planter was made using a pottery wheel, hence its sides are straight
 </div>
 
 #### Ink: 
-
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/ink/ink_0.png" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/ink/ink_1.png" width="220"/>
+        </tr>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/ink/ink_2.png" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/ink/ink_3.png" width="220"/>
+        </tr>
+    </table>
+</div>
 
 
 ### Embroidery   <a class="anchor" id="embroidery"></a>
