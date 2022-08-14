@@ -396,32 +396,43 @@ cat programs/clean_seq.py  # printing the content of the executable script
                     self.seqdict[key] = value[:start]+add+value[end+1:]
                     value = self.seqdict[key]
                     
+        def save_output(self, output_name):
+        """
+        Save the cleaned loci result
+        
+        param mode: logical, False if user did not specify name for output
+        """
+        print("Cleaning completed, saving result")
+        if not output_name:  # user did not specify name for output 
+            basename = os.path.basename(self.filename)
+            output_name = 'cleaned_loci_'+basename  # name for output file 
+        
+        with open(output_name, 'w') as f:
+            for key, value in self.seqdict.items():
+                f.write(key)
+                f.write('\n')
+                f.write(value)
+                f.write('\n')
+        
+        print("Result saved - program is finished.")
+                    
     if __name__ == '__main__':
         print("Processing <" + args.file + "> using <" + args.ref + "> as the reference.")
         # PROCESS reference genome
         ref_path = args.ref  # path to the reference genome file 
         ref = Sequence(ref_path)  # create Sequence object and open file
         ref.read_file('reference_genome')  # process the reference genome file 
-        
+
         # PROCESS alignment data: 
         aligned_path = args.file
         aligned = Sequence(aligned_path)
         aligned.read_file('aligned_sequences', flank_ranges=ref.flank_range_list)
-        
+
         # SAVE FILE: 
-        out = 'cleaned_result.fas'  # name for output file 
+        output_name = False  # no user specified name
         if args.out:  # user specified output file name 
-            out=args.out
-            
-        print("Cleaning completed, saving results")
-        with open(out, 'w') as f:         
-            for key, value, in aligned.seqdict.items():
-                f.write(key)
-                f.write('\n')
-                f.write(value)
-                f.write('\n')
-                
-        print("Results saved - program finished")
+            output_name=args.out
+        aligned.save_output(output_name)
 
 
 ### Making sure the executable file works
