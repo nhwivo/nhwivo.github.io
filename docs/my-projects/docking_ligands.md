@@ -9,15 +9,15 @@ nav_order: 3
 ### Introduction
 ---------------------------------------------------------------
 As part of my research in the <a href="https://kiharalab.org/" target="_blank">Kihara Bioinformatics Laboratory</a> at Purdue University, I was responsible for the following tasks below:
-- Replicate the docking that was performed in the [DockCoV2](https://academic.oup.com/nar/article/49/D1/D1152/5920447)  database 
-- Perform docking of molecules generated from the [ReLeaSE](https://github.com/isayev/ReLeaSE) machine learning algorithm
+- Replicate the docking that was performed in the <a href="https://academic.oup.com/nar/article/49/D1/D1152/5920447" target="_blank">DockCoV2</a> database 
+- Perform docking of molecules generated from the <a href="https://github.com/isayev/ReLeaSE" target="_blank">ReLeaSE</a> machine learning algorithm
 - Compare the docking scores between the 3 datasets (DockCoV2 scores, replicated docking scores, and generated molecules docking scores)  
 
 **<a href="https://vina.scripps.edu/" target="_blank">Autodock Vina</a>**, an open-source program for doing molecular docking, was used for all the dockings performed. ***Bash*** scripts were used to manipulate data for the docking procedures, and ***R*** was used to visualize the docking results. In addition, ***SLURM*** scripts were written to submit docking jobs to Purdue's HPC.  
 
 ### Pre-process files downloaded from DockCov2
 ---------------------------------------------------------------
-###### From DockCoV2's [download](https://covirus.cc/drugs/downloads) page, the following information was retrieved:
+###### From DockCoV2's <a href="https://covirus.cc/drugs/downloads" target="_blank">download</a> page, the following information was retrieved:
 1. [6lu7](https://www.rcsb.org/structure/6lu7) protease .pdbqt file - this is the target protein for docking
 2. A config file - this provides information/parameters for the docking, such as: grid box coordinates, grid box dimensions, exhaustiveness, etc.   
     *Note:* exhaustiveness was changed from 150 to 8 due to computational limitations; energy_range was changed from 10 to 4; num_modes was changed from 20 to the default of 9  
