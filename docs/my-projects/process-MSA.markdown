@@ -20,21 +20,9 @@ The original alignment contains 385 sequences, which is reduced to a smaller sub
 
 
 ```bash
-%%bash
-cd data/
-# sequences of interest start with 'L0', such as 'L0000244_LEP81768_Noctuidae_Noctuinae_Noctua_pronuba' 
-grep -A 1 'L0' FcC_supermatrix_Nhi_Vo.fas > L0.fas  # find and copy sequences of interest into new file 
-grep '>' L0.fas | wc -l  # total number of whole genome sequences from the original file 
-```
-
-    201
-
-
-
-```bash
 %%bash 
 cd data/
-head -n 13 L0.fas > first_5.fas  # make a new file with the first 5 sequences 
+head -n 13 FcC_supermatrix_Nhi_Vo.fas > first_5.fas  # make a new file with the first 5 sequences 
 grep '>' first_5.fas  # check the sequence names of the newly created file 
 ```
 
@@ -455,8 +443,14 @@ cat ../programs/clean_MSA_loci.py  # printing the content of the executable scri
 
 ### Making sure the executable file works
 ---------------------------------------------------------------
-In the first cell below, "!" prefix is used to indicate command line to Jupyter Notebook. The inputs are the same files used before. The resulting file, "cleaned_result.fas" is the same as the cleaned result from above, showing that the edited script for the command line works.
+In the first cell below, "!" prefix is used to indicate command line to Jupyter Notebook. The resulting file, "cleaned_result.fas" is the same as the cleaned result from above, showing that the edited script for the command line works.
 
+```bash
+%%bash
+cd data/
+head -n 13 FcC_supermatrix_Nhi_Vo.fas > subset_MSA.fas  # make a new file with the first 5 sequences 
+grep -A1 'BMORI' >> subset_MSA.fas  # add reference genome into the subset file 
+```
 
 ```python
 !programs/clean_MSA_loci.py "data/first_5.fas" "BMORI_R" --out cleaned_result.fas
@@ -489,6 +483,8 @@ done
     GTGGTAACCT-----TAATGTTACCTTCTTCACCCCTCGTGATAGATATGACA----------GAAAATACAACTTGGAGCTAATAAAA------AGGGCACTCTTCAGAGGTTTTGGAG
     >L0000244_LEP81768_Noctuidae_Noctuinae_Noctua_pronuba
     GAGGAAATCT-----CAACATCTCATTCTTCACTCCTCGTGAGAGATACGACA----------GAAAGTACAACTTGGAACTGATTAAG------AGGGCACTCTTCAGAGGATTTGGAG
+    >_BMORI_R
+    GAGGAAATCT-----GAATATAACATTCTTTGCCCCACGTGAGAGATATGACA----------GAAATTACAATTTGAAGTTGATTAAG------AGAGCACTGTTCAGAAGTTTTGGCA
 
 
 ### Result from cleaning the original dataset of 395 sequences
