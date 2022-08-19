@@ -258,7 +258,7 @@ for key, value in aligned.seqdict.items():  # print the same region as above in 
 
 ### Turning the script into an executable file
 ---------------------------------------------------------------
-Below, I edited the script above into an executable file that takes in argument from the command line, so that it can be run outside of Jupyter Notebook. The script can be downloaded from my Github page. 
+Below, I edited the script above into an executable file that takes in argument from the command line, so that it can be run outside of Jupyter Notebook. The script can be downloaded from my <a href="https://github.com/nhwivo/clean-MSA-loci" target="_blank">Github</a> page. 
 
 
 ```bash
