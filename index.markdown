@@ -9,6 +9,7 @@ nav_order: 1
 <p>Hello! My name is Nhi. I am currently a senior in Genetics at <img src="/assets/img/about_me_img/Screenshot (298).png" alt="nhivo" width="220" height="220" style="float:right" border="20">Purdue University.</p> Aside from my strong interest in molecular biology, especially in genetics and genomics, I am also interested in computational methods developed to analyze biological datasets. 
 During my undergraduate program, I have had the chance to work with professor Daisuke Kihara in his bioinformatics laboratory, and with Dr. Martinez, a postdoc from the Kawahara Lab at the Florida Museum of Natural History. From those experiences, I had the opportunity to work with a diverse range of biological dataset, including protein structures, small drug molecules, genomic data, transcriptome data, phylogenetic data, etc. 
 
+<html>
 <TABLE BORDER=”0″>
 <TR>
 <TD>Hello! My name is Nhi. I am currently a senior in Genetics at Purdue University. Aside from my strong interest in molecular biology, especially in genetics and genomics, I am also interested in computational methods developed to analyze biological datasets. </TD>
@@ -17,6 +18,7 @@ During my undergraduate program, I have had the chance to work with professor Da
 </TD>
 </TR>
 </TABLE>
+</html>
 
 
 **Technical Skills **
@@ -42,7 +44,7 @@ During my undergraduate program, I have had the chance to work with professor Da
     <th>Interpersonal Skills</th>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="65%">
       <ul>
 	<li>Scripting ability in Python and Bash</li>
 	<li>Familiarity with object-oriented programming methodologies</li>
@@ -57,24 +59,18 @@ During my undergraduate program, I have had the chance to work with professor Da
         <li>Experience with HTML</li>
       </ul>
     </td>
-    <td width="50%">
+    <td width="35%">
       <ul>
-	<li>Clear communication skills</li>
+	<li>Clear verbal and written communication</li>
         <li>Tolerance and respect for others</li>
         <li>Public speaking and presentation</li>
         <li>Mentoring and coaching others</li>
         <li>Flexibility in thinking and operating style</li>
         <li>Collaborating and working well together with others</li>
-        <li>ex</li>
+        <li>Ability to meet project deadlines</li>
+        <li>Willingness to learn</li>
       </ul>
     </td>
   </tr>
 </table>
 </html>
-
-
-<table width="100%">
-  <tr>
-  <td width="(100/x)%"></td>
-  </tr>
-</table>
