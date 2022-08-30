@@ -112,12 +112,3 @@ TEST
 </tr>
 </tbody>
 </table>
-
-<style type="text/css">
-table th, table td{
-text-align: center;
-}
-tbody tr:nth-child(even) {
-background: #e8e7e1;
-}
-</style>
