@@ -5,9 +5,8 @@ nav_order: 3
 permalink: /docs/my-art
 ---
 <h1>My Artworks</h1>  
-Welcome to the best page on my entire website. Here, I showcase my artistic abilities and talk through what I have done for each project.  
-Drawing, painting, and crafting are things that I am 
-In my free time, I often do arts and craft. I hope you, the visitor of this site, enjoy these artworkds as much as I enjoyed making them. 
+Welcome to the best page on my entire website. Here, I showcase some of the arts and crafts that I have made, along with brief descriptions of what I did for each project.  
+Making art is another passion of mine 
 If you're curious about the process of any of the works that you see, please don't hesitate to contact me as I will be happy to talk about them.  
 
 Below are some of the things that I have made. Just click to jump to the desired section:  
