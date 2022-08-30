@@ -9,18 +9,11 @@ In my free time, I often do arts and craft. I hope you, the visitor of this site
 If you're curious about the process of any of the works that you see, please don't hesitate to contact me as I will be happy to talk about them. 
 
 Below are some of the things that I have made. Just click to jump to the desired section:
-<table cellspacing="0" cellpadding="0">
-  <tr>
-   <td>[Crocheted and knitted works](#crochet)</td>
-   <td>[Ceramics](#ceramics)</td>
-   <td>[Paintings](#paintings)</td>
-  </tr>
-  <tr>
-   <td>[Drawings](#drawings)</td>
-   <td>[Embroidery](#embroidery)</td>
-   <td>text in column</td>
-  </tr>
- </table>
+| Arts         | Crafts        |
+| ------------ | ------------- | 
+| [Drawings](#drawings)  | [Crocheted and knitted works](#crochet)| 
+| [Paintings](#paintings)| [Ceramics](#ceramics)		  | 
+| 		         | [Embroidery](#embroidery)              | 
 1. [Crocheted and knitted works](#crochet) 
 2. [Ceramics](#ceramics)
 3. [Paintings](#paintings)
