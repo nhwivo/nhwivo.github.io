@@ -5,9 +5,22 @@ nav_order: 3
 permalink: /docs/my-art
 ---
 <h1><center>My Artworks!</center></h1>  
-Love making art in my free-time.  
+In my free time, I often do arts and craft. I hope you, the visitor of this site, enjoy these artworkds as much as I enjoyed making them. 
+If you're curious about the process of any of the works that you see, please don't hesitate to contact me as I will be happy to talk about them. 
 
-Below are some of the things that I have made (click to jump to each section):
+Below are some of the things that I have made. Just click to jump to the desired section:
+<table cellspacing="0" cellpadding="0">
+  <tr>
+   <td>[Crocheted and knitted works](#crochet)</td>
+   <td>[Ceramics](#ceramics)</td>
+   <td>[Paintings](#paintings)</td>
+  </tr>
+  <tr>
+   <td>[Drawings](#drawings)</td>
+   <td>[Embroidery](#embroidery)</td>
+   <td>text in column</td>
+  </tr>
+ </table>
 1. [Crocheted and knitted works](#crochet) 
 2. [Ceramics](#ceramics)
 3. [Paintings](#paintings)
