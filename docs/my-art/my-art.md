@@ -10,8 +10,8 @@ Making art is another passion of mine
 If you're curious about the process of any of the works that you see, please don't hesitate to contact me as I will be happy to talk about them.  
 
 Below are some of the things that I have made. Just click to jump to the desired section:  
-| Arts         | Crafts        |
-|:------------|:------------- | 
+| Arts                   | Crafts                                 |
+|:-----------------------|:---------------------------------------| 
 | [Drawings](#drawings)  | [Knit & Crochet](#crochet)		  | 
 | [Paintings](#paintings)| [Ceramics](#ceramics)		  | 
 | 		         | [Embroidery](#embroidery)              | 
