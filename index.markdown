@@ -12,7 +12,9 @@ During my undergraduate program, I have had the chance to work with professor Da
 <TABLE BORDER=”0″>
 <TR>
 <TD>Hello! My name is Nhi. I am currently a senior in Genetics at Purdue University. Aside from my strong interest in molecular biology, especially in genetics and genomics, I am also interested in computational methods developed to analyze biological datasets. </TD>
-<TD><img src="/assets/img/about_me_img/Screenshot (298).png" alt="nhivo" width="220" height="220" style="float:right" border="20"></TD>
+<TD width="250", style="text-align: center; vertical-align: middle;">
+  <img src="/assets/img/about_me_img/Screenshot (298).png" alt="nhivo" width="220" height="220" style="float:right" border="20">
+</TD>
 </TR>
 </TABLE>
 
