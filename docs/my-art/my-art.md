@@ -167,18 +167,18 @@ This second planter was made using a pottery wheel, hence its sides are straight
 <div id="image-table">
     <table>
 	    <tr>
-    	    <td style="padding:10px">
+    	    <td style="padding:10px; text-align: center; vertical-align: middle;">
         	    <img src="/assets/img/my-art/ink/ink_0.png" width="320"/>
       	    </td>
-            <td style="padding:10px">
+            <td style="padding:10px; text-align: center; vertical-align: middle;">
             	<img src="/assets/img/my-art/ink/ink_1.png" width="320"/>
 	    </td>
         </tr>
 	    <tr>
-    	    <td style="padding:10px">
+    	    <td style="padding:10px; text-align: center; vertical-align: middle;">
         	    <img src="/assets/img/my-art/ink/ink_2.png" width="320"/>
       	    </td>
-            <td style="padding:10px">
+            <td style="padding:10px; text-align: center; vertical-align: middle;">
             	<img src="/assets/img/my-art/ink/ink_3.png" width="320"/>
 	    </td>
         </tr>
