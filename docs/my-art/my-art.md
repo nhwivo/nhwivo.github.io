@@ -11,7 +11,7 @@ If you're curious about the process of any of the works that you see, please don
 
 Below are some of the things that I have made. Just click to jump to the desired section:  
 | Arts         | Crafts        |
-| ------------ | ------------- | 
+|:------------|:------------- | 
 | [Drawings](#drawings)  | [Knit & Crochet](#crochet)		  | 
 | [Paintings](#paintings)| [Ceramics](#ceramics)		  | 
 | 		         | [Embroidery](#embroidery)              | 
