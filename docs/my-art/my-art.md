@@ -4,21 +4,18 @@ title:  "My Art!"
 nav_order: 3
 permalink: /docs/my-art
 ---
-<h1><center>My Artworks!</center></h1>  
+<h1>My Artworks</h1>  
+Welcome to the best page on my entire website. Here, I showcase my artistic abilities and talk through what I have done for each project.  
+Drawing, painting, and crafting are things that I am 
 In my free time, I often do arts and craft. I hope you, the visitor of this site, enjoy these artworkds as much as I enjoyed making them. 
-If you're curious about the process of any of the works that you see, please don't hesitate to contact me as I will be happy to talk about them. 
+If you're curious about the process of any of the works that you see, please don't hesitate to contact me as I will be happy to talk about them.  
 
-Below are some of the things that I have made. Just click to jump to the desired section:
+Below are some of the things that I have made. Just click to jump to the desired section:  
 | Arts         | Crafts        |
 | ------------ | ------------- | 
-| [Drawings](#drawings)  | [Crocheted and knitted works](#crochet)| 
+| [Drawings](#drawings)  | [Knit & Crochet](#crochet)		  | 
 | [Paintings](#paintings)| [Ceramics](#ceramics)		  | 
 | 		         | [Embroidery](#embroidery)              | 
-1. [Crocheted and knitted works](#crochet) 
-2. [Ceramics](#ceramics)
-3. [Paintings](#paintings)
-4. [Drawings](#drawings)  
-5. [Embroidery](#embroidery) 
 
 ### Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>
 ----------------------------------------------------------------------------------
