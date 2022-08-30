@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "My Art"
+title:  "My Art!"
 nav_order: 3
 permalink: /docs/my-art
 ---
