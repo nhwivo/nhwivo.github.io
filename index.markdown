@@ -9,6 +9,13 @@ nav_order: 1
 <p>Hello! My name is Nhi. I am currently a senior in Genetics at <img src="/assets/img/about_me_img/Screenshot (298).png" alt="nhivo" width="220" height="220" style="float:right" border="20">Purdue University.</p> Aside from my strong interest in molecular biology, especially in genetics and genomics, I am also interested in computational methods developed to analyze biological datasets. 
 During my undergraduate program, I have had the chance to work with professor Daisuke Kihara in his bioinformatics laboratory, and with Dr. Martinez, a postdoc from the Kawahara Lab at the Florida Museum of Natural History. From those experiences, I had the opportunity to work with a diverse range of biological dataset, including protein structures, small drug molecules, genomic data, transcriptome data, phylogenetic data, etc. 
 
+<TABLE BORDER=”0″>
+<TR>
+<TD>Hello! My name is Nhi. I am currently a senior in Genetics at Purdue University. Aside from my strong interest in molecular biology, especially in genetics and genomics, I am also interested in computational methods developed to analyze biological datasets. </TD>
+<TD><img src="/assets/img/about_me_img/Screenshot (298).png" alt="nhivo" width="220" height="220" style="float:right" border="20"></TD>
+</TR>
+</TABLE>
+
 
 **Technical Skills **
 ---------------------------------------------------------------
@@ -33,7 +40,7 @@ During my undergraduate program, I have had the chance to work with professor Da
     <th>Interpersonal Skills</th>
   </tr>
   <tr>
-    <td>
+    <td width="50%">
       <ul>
 	<li>Scripting ability in Python and Bash</li>
 	<li>Familiarity with object-oriented programming methodologies</li>
@@ -48,7 +55,7 @@ During my undergraduate program, I have had the chance to work with professor Da
         <li>Experience with HTML</li>
       </ul>
     </td>
-    <td>
+    <td width="50%">
       <ul>
 	<li>Clear communication skills</li>
         <li>Tolerance and respect for others</li>
@@ -64,51 +71,8 @@ During my undergraduate program, I have had the chance to work with professor Da
 </html>
 
 
-TEST
-
-<table width="50%" cellspacing="0">
-<thead>
-<th width="100">S.No.</th>
-<th width="150">Country Code</th>
-<th width="200">Country</th>
-<th width="150">Phone Code</th>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>AW</td>
-<td>Aruba</td>
-<td>297</td>
-</tr>
-<tr>
-<td>2</td>
-<td>AU</td>
-<td>Australia</td>
-<td>61</td>
-</tr>
-<tr>
-<td>3</td>
-<td>AT</td>
-<td>Austria</td>
-<td>43</td>
-</tr>
-<tr>
-<td>4</td>
-<td>AZ</td>
-<td>Azerbaijan</td>
-<td>994</td>
-</tr>
-<tr>
-<td>5</td>
-<td>BS</td>
-<td>Bahamas</td>
-<td>1241</td>
-</tr>
-<tr>
-<td>6</td>
-<td>BH</td>
-<td>Bahrain</td>
-<td>973</td>
-</tr>
-</tbody>
+<table width="100%">
+  <tr>
+  <td width="(100/x)%"></td>
+  </tr>
 </table>
