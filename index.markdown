@@ -6,19 +6,9 @@ nav_order: 1
 ---
 <h1>Welcome to my Website</h1>  
 
-<p>Hello! My name is Nhi. I am currently a senior in Genetics at <img src="/assets/img/about_me_img/Screenshot (298).png" alt="nhivo" width="220" height="220" style="float:right" border="20">Purdue University.</p> Aside from my strong interest in molecular biology, especially in genetics and genomics, I am also interested in computational methods developed to analyze biological datasets. 
-During my undergraduate program, I have had the chance to work with professor Daisuke Kihara in his bioinformatics laboratory, and with Dr. Martinez, a postdoc from the Kawahara Lab at the Florida Museum of Natural History. From those experiences, I had the opportunity to work with a diverse range of biological dataset, including protein structures, small drug molecules, genomic data, transcriptome data, phylogenetic data, etc. 
-
-<html>
-<table border=”0″>
-<tr>
-  <td>Hello! My name is Nhi. I am currently a senior in Genetics at Purdue University. Aside from my strong interest in molecular biology, especially in genetics and genomics, I am also interested in computational methods developed to analyze biological datasets. </td>
-  <td width="250", style="text-align: center; vertical-align: middle;">
-  <img src="/assets/img/about_me_img/Screenshot (298).png" alt="nhivo" width="220" height="220" style="float:right" border="20">
-  </td>
-</tr>
-</table>
-</html>
+<p>Hello! My name is Nhi. I am currently a senior in Genetics at <img src="/assets/img/about_me_img/Screenshot (298).png" alt="nhivo" width="220" height="220" style="float:right" hspace="20" vspace="20">Purdue University.</p> Aside from my strong interest in molecular biology, especially in genetics and genomics, I am also interested in computational methods developed to analyze biological datasets. 
+During my undergraduate program, I have had the opportunity to work with professor Daisuke Kihara in his bioinformatics laboratory, and with Dr. Martinez, a postdoc from the Kawahara Lab at the Florida Museum of Natural History. I have experience in working with a diverse range of biological datasets, including protein structures, small drug molecules, genomic data, transcriptome data, phylogenetic data, and etc. In addition, I got to apply a variety of bioinformatics and cheminformatics softwares, such as RDKit, Autodock Vina, PyMol, SAMtools, BWA, and etc. to understand the biological datasets studied in each lab. 
+This site includes some of the work I have done during undergraduate research, along with projects for my courses at Purdue. 
 
 ### My Qualifications:
 <html>
