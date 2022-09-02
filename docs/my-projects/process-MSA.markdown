@@ -8,11 +8,11 @@ nav_order: 1
 
 ### Introduction
 ---------------------------------------------------------------
-While working with Dr. Martinez, a postdoc at the <a href="https://www.floridamuseum.ufl.edu/kawahara-lab/" target="_blank">Kawahara Lab</a> - Museum of Natural History, I was presented with a problem pertaining to cleaning a multiple sequence alignment (MSA) file. This MSA file contained loci important to Dr. Martinez's research project, however, there were information between these loci that needed to be removed (seen in the image below). In the past, this problem has been solved by manually deleting regions between these loci. In this particular project, however, the number of regions to be cleaned was simply too large (385 sequences each with many loci), which proved tedious and time consuming to be done by hand. 
+While working with Dr. Martinez, a postdoctoral researcher from <a href="https://www.floridamuseum.ufl.edu/kawahara-lab/" target="_blank">Kawahara Lab</a>, a research lab at the Florida Museum of Natural History, I was presented with a problem pertaining to cleaning a multiple sequence alignment (MSA) file. This MSA file contained loci important for Dr. Martinez's phylogenetic analysis. However, there were data between these loci that needed to be removed (seen in the image below). In the past, this issue has been resolved by manually deleting regions between the loci. With this particular dataset, however, the number of flanking regions that needed to be cleaned was too large (385 sequences each with many loci), which proved tedious and time consuming to be done by hand. 
 
 ![MSA_problem](/assets/img/process_MSA_problem.png)
 
-Below, I described the processes I took to solve this problem, and presented the final executable script used to clean the MSA file. Both Python and Bash were used in different parts of the project.  
+Below, I described the processes I took to solve this problem, and presented the final executable script used to clean the MSA file.
 
 ### Creating a smaller subset of the data
 ---------------------------------------------------------------
