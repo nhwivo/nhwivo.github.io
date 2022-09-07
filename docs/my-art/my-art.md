@@ -6,11 +6,10 @@ permalink: /docs/my-art
 ---
 <h1>My Artworks</h1>  
 Welcome to the best page on my entire website. Here, I showcase some of the arts and crafts that I have made, along with brief descriptions of what I did for each project.  
-If you're curious about the process of any of the works that you see, please don't hesitate to contact me as I will be happy to talk about them.   
 
 Below are some of the things that I have made. Just click to jump to the desired section:  
 | Arts                   | Crafts                                 |
-|:-----------------------|:---------------------------------------| 
+|------------------------|----------------------------------------| 
 | [Drawings](#drawings)  | [Knit & Crochet](#crochet)		  | 
 | [Paintings](#paintings)| [Ceramics](#ceramics)		  | 
 | 		         | [Embroidery](#embroidery)              | 
