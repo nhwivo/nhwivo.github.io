@@ -16,12 +16,6 @@ Below are some of the things that I have made. Just click to jump to the desired
 | [Paintings](#paintings)| [Ceramics](#ceramics)		  | 
 | 		         | [Embroidery](#embroidery)              | 
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
 
 ### Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>
 ----------------------------------------------------------------------------------
