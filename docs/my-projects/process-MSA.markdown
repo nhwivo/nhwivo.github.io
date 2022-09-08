@@ -1,9 +1,3 @@
----
-layout: default
-title:  "Processing of Multiple Sequence Alignment Data"
-parent: My Projects
-nav_order: 10
----
 <h1><center>Processing of Multiple Sequence Alignment Data</center></h1>  
 
 ### Introduction
