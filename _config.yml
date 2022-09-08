@@ -82,6 +82,14 @@ search:
 # Enable or disable heading anchors
 heading_anchors: true
 
+# Aux links for the upper right navigation
+aux_links:
+  "My LinkedIn":
+    - "https://www.linkedin.com/in/nhwivo/"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
 # Footer content
 # appears at the bottom of every page's main content
 # Back to top link
