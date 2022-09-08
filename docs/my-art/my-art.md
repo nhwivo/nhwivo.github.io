@@ -5,9 +5,9 @@ nav_order: 3
 permalink: /docs/my-art
 ---
 <h1>My Artworks</h1>  
-Welcome to the best page on my entire website. Here, I showcase some of the arts and crafts that I have made, along with brief descriptions of what I did for each project.  
+Welcome to my art page! Here, I showcase some of the arts and crafts that I have made, along with brief descriptions of what I did for each project.  
 
-Below are some of the things that I have made. Just click to jump to the desired section:  
+Below are some of the things that I have worked on. Just click to jump to the desired section:  
 
 
 | Arts                   | Crafts                                 |
@@ -19,8 +19,28 @@ Below are some of the things that I have made. Just click to jump to the desired
 
 ### Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>
 ----------------------------------------------------------------------------------
-#### Dragon Scale Dice Pouches: 
-These little drawstring pouches to hold dice were made as gifts for my friends who played DnD. The pattern for the pouch can be found on Ellie Lenz's <a href="https://www.youtube.com/watch?v=0T7WT2OMUXo" target="_blank">Youtube Channel</a>. The size of the pouch from the tutorial has been reduced to be more suitable for holding dice.   
+#### Crocheted Flowers: 
+***Description coming soon!***  
+
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/crochet/flowers1.jpg" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/crochet/flowers2.jpg" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/crochet/flowers3.jpg" width="220"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+#### Crocheted Dragon Scale Dice Pouches: 
+These little drawstring pouches to hold dice were made as gifts for my friends who played DnD. The pattern for the pouch can be found on Ellie Lenz's <a href="https://www.youtube.com/watch?v=0T7WT2OMUXo" target="_blank">Youtube Channel</a>. The size of the pouch from the tutorial has been reduced (by lowering the number of rows in the bottom) to be more suitable for holding dice.   
 <div id="image-table">
     <table>
 	    <tr>
@@ -38,7 +58,8 @@ These little drawstring pouches to hold dice were made as gifts for my friends w
 </div>
 
 #### Hats!
-Funny hats that were made without any patterns. The green beanie was made by knitting a rectangle and sewing the sides together. 
+Funny hats that were made without any patterns.  
+The green beanie was made by knitting a rectangle and sewing the sides together.  
 
 <div id="image-table">
     <table>
@@ -56,14 +77,11 @@ Funny hats that were made without any patterns. The green beanie was made by kni
     </table>
 </div>
 
-#### Plushies:
-
-
 #### Plarn (plastic-yarn) Bag: 
 Plastic bags can be converted to plarn using the technique seen in this <a href="https://www.youtube.com/watch?v=gQwTcizA7Oo" target="_blank">video</a>. Plarn can then be used just like regular yarn. Below is a plarn tote bag that I have been working on using plastic bags gathered from friends, roommates, cultural centers, and clubs. 
 
 <figure>
-<img src="/assets/img/my-art/crochet/plarn_bag.jpg" alt="Trulli" style="width:50%">
+<img src="/assets/img/my-art/crochet/plarn_bag.jpg" alt="Trulli" style="width:220">
 </figure>
 
 ### Ceramics <a class="anchor" id="ceramics"></a>
