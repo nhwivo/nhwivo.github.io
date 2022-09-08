@@ -8,12 +8,20 @@ permalink: /docs/my-art
 Welcome to the best page on my entire website. Here, I showcase some of the arts and crafts that I have made, along with brief descriptions of what I did for each project.  
 
 Below are some of the things that I have made. Just click to jump to the desired section:  
+
+
 | Arts                   | Crafts                                 |
 |------------------------|----------------------------------------| 
 | [Drawings](#drawings)  | [Knit & Crochet](#crochet)		  | 
 | [Paintings](#paintings)| [Ceramics](#ceramics)		  | 
 | 		         | [Embroidery](#embroidery)              | 
 
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
 
 ### Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>
 ----------------------------------------------------------------------------------
