@@ -156,4 +156,4 @@ Finally, the script was ran on the original file named *FcC_supermatrix_nv.fas*,
 *Aliview*, an alignment viewer and editor software, was used to visually check the results. 
 As seen in a snipet of the cleaned result below, flanking regions between other sequences are cleaned based on the reference genome _BMORI_R.
 
-![MSA_result](MSA_result.png)
+![MSA_result](/assets/img/process_MSA_result.png)
