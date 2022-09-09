@@ -81,7 +81,7 @@ The green beanie was made by knitting a rectangle and sewing the sides together.
 Plastic bags can be converted to plarn using the technique seen in this <a href="https://www.youtube.com/watch?v=gQwTcizA7Oo" target="_blank">video</a>. Plarn can then be used just like regular yarn. Below is a plarn tote bag that I have been working on using plastic bags gathered from friends, roommates, cultural centers, and clubs. 
 
 <figure>
-<img src="/assets/img/my-art/crochet/plarn_bag.jpg" alt="Trulli" style="width:220">
+<img src="/assets/img/my-art/crochet/plarn_bag.jpg" alt="Trulli" style="width:35%">
 </figure>
 
 ### Ceramics <a class="anchor" id="ceramics"></a>
