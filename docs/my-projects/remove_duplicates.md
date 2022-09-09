@@ -9,8 +9,7 @@ nav_order: 1.1
 ### Introduction
 -------------------------------------------
 During the Anchored Hybrid Enrichment pipeline, the dataset that Dr. Martinez, a postdoc working in the Kawahara Lab at the Florida Museum of Natural History, was studying contained duplicates that complicated the phylogenetic analysis process. The multiple sequence alignment (MSA) data contained multiple <a href="https://www.genome.gov/genetics-glossary/Locus" target="_blank">loci</a> (sites/locations of a gene within a genome), each with different numbers of replicates within them.   
-To remove the duplicates within each loci, an object oriented Python script was written to iterate through all the loci in a given file, and remove all but 1 copy of each sequences. The full script can be found on my <a href="https://github.com/nhwivo/rm-loci-dupl/blob/main/rm_loci_dupl.py" target="_blank">Github</a>. 
-[Github](https://github.com/nhwivo/rm-loci-dupl/blob/main/rm_loci_dupl.py){: .btn .btn-outline }
+To remove the duplicates within each loci, an object oriented Python script was written to iterate through all the loci in a given file, and remove all but 1 copy of each sequences. The full script can be found on my <a href="https://github.com/nhwivo/rm-loci-dupl/blob/main/rm_loci_dupl.py" target="_blank">Github</a>.  
 
 ### Procedures
 -------------------------------------------
@@ -49,12 +48,12 @@ The general framework was as follow:
     - List of seqnames in a loci
     - Previous loci number
     - Dictionary to hold seqname and sequence information
-3. Determine whether the line starts with `>`. If yes, then process the seqname as described below 
+4. Determine whether the line starts with `>`. If yes, then process the seqname as described below 
     - Determine the loci number from the seqname. 
         - The format of the seqname is as follows: `L389|name|of|organism`; therefore, it can be split by `|` and using the index of 0 to obtain the loci number. 
     - If the current loci number does not equal the previous loci number, that means a new loci started, therefore the list of seqnames needs to be emptied. 
-    - Adding seqname into list of unique seqname if it is not already in the list and add the seqname as a dictionary key with an empty value, e.g. `{"L389|Agrochola|circellaris":""}.
-4. If a line does not start with `>`, then it is a sequence of the previous line. Therefore it is added into the dictionary as the value of the last key in the dictionary. e.g. the sequence would be added to "seqname2" in the following dictionary: `{"L389|seqname1":"GTAGCTAGC", "L389|seqname2":""}`.
+    - Adding seqname into list of unique seqname if it is not already in the list and add the seqname as a dictionary key with an empty value, e.g. `{"L389|Agrochola|circellaris":""}`.
+5. If a line does not start with `>`, then it is a sequence of the previous line. Therefore it is added into the dictionary as the value of the last key in the dictionary. e.g. the sequence would be added to "seqname2" in the following dictionary: `{"L389|seqname1":"GTAGCTAGC", "L389|seqname2":""}`.
 - Save the output into a new file.  
 
 #### Testing the program on the 2 smaller subsets  
