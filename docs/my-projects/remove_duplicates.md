@@ -1,19 +1,26 @@
+---
+layout: default
+title:  "Removal of Duplicated .fasta Sequences"
+parent: My Projects
+nav_order: 1.1
+---
 <h1><center>Removal of Duplicated Sequences</center></h1>  
 
 ### Introduction
 -------------------------------------------
 During the Anchored Hybrid Enrichment pipeline, the dataset that Dr. Martinez, a postdoc working in the Kawahara Lab at the Florida Museum of Natural History, was studying contained duplicates that complicated the phylogenetic analysis process. The multiple sequence alignment (MSA) data contained multiple <a href="https://www.genome.gov/genetics-glossary/Locus" target="_blank">loci</a> (sites/locations of a gene within a genome), each with different numbers of replicates within them.   
 To remove the duplicates within each loci, an object oriented Python script was written to iterate through all the loci in a given file, and remove all but 1 copy of each sequences. The full script can be found on my <a href="https://github.com/nhwivo/rm-loci-dupl/blob/main/rm_loci_dupl.py" target="_blank">Github</a>. 
+[Github](https://github.com/nhwivo/rm-loci-dupl/blob/main/rm_loci_dupl.py){: .btn .btn-outline }
 
 ### Procedures
 -------------------------------------------
 #### Subsetting the MSA file
 -------------------------------------------
 2 loci, L388 and L389, were chosen to test the script to make sure duplicates are removed correctly. *L388*, as seen in the photo below, contained *2 duplicates* that needed to be removed. 
-![L388](L388_dup_problem.png)
+![L388](/assets/img/loci_duplication_img/L388_dup_problem.png)
 
 As for loci *L389*, there were *4 duplicates* that needed to be removed. Together, loci L388 and L389 had 6 duplicated sequences that needed to be removed. 
-![L389](L389_dup_problem.png)
+![L389](/assets/img/loci_duplication_img/L389_dup_problem.png)
 
 
 ```bash
