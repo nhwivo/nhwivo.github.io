@@ -1,23 +1,31 @@
 <h1><center>Removal of Duplicated Sequences</center></h1>  
 
-
-### Subsetting the MSA file
+### Introduction
 -------------------------------------------
-2 loci have been chosen to test the script to make sure duplicates are removed correctly. L388, as seen in photo below, contains 2 duplicates that need to be removed. 
-![L388](/assets/img/loci_duplication_img/L388_dup_problem.png)
+During the Anchored Hybrid Enrichment pipeline, the dataset that Dr. Martinez, a postdoc working in the Kawahara Lab at the Florida Museum of Natural History, was studying contained duplicates that complicated the phylogenetic analysis process. The multiple sequence alignment (MSA) data contained multiple <a href="https://www.genome.gov/genetics-glossary/Locus" target="_blank">loci</a> (sites/locations of a gene within a genome), each with different numbers of replicates within them.   
+To remove the duplicates within each loci, an object oriented Python script was written to iterate through all the loci in a given file, and remove all but 1 copy of each sequences. The full script can be found on my <a href="https://github.com/nhwivo/rm-loci-dupl/blob/main/rm_loci_dupl.py" target="_blank">Github</a>. 
 
-As for loci L389, there are 4 duplicates that need to be removed.  
-![L389](/assets/img/loci_duplication_img/L389_dup_problem.png)
+### Procedures
+-------------------------------------------
+#### Subsetting the MSA file
+-------------------------------------------
+2 loci, L388 and L389, were chosen to test the script to make sure duplicates are removed correctly. *L388*, as seen in the photo below, contained *2 duplicates* that needed to be removed. 
+![L388](L388_dup_problem.png)
+
+As for loci *L389*, there were *4 duplicates* that needed to be removed. Together, loci L388 and L389 had 6 duplicated sequences that needed to be removed. 
+![L389](L389_dup_problem.png)
 
 
 ```bash
 %%bash 
-grep 'L388' -A 1 sl_SINGLE_COPY_FOR_JM2.fas > JM2_L388.fas
-subset1_num=`grep '>' JM2_L388.fas | wc -l`
+# counting the total number of sequences
+cd ../data/dupl/
+grep 'L388' -A 1 sl_SINGLE_COPY_FOR_JM2.fas > L388_subset.fas
+subset1_num=`grep '>' L388_subset.fas | wc -l`
 echo 'number of sequences in loci L388 =' $subset1_num
 
-grep -E 'L388|L389' -A 1 sl_SINGLE_COPY_FOR_JM2.fas > JM2_L388_L389.fas
-subset2_num=`grep '>' JM2_L388_L389.fas | wc -l`
+grep -E 'L388|L389' -A 1 sl_SINGLE_COPY_FOR_JM2.fas > L388_L389_subset.fas
+subset2_num=`grep '>' L388_L389_subset.fas | wc -l`
 echo 'number of sequences in loci L388 and L389 =' $subset2_num
 ```
 
@@ -25,172 +33,70 @@ echo 'number of sequences in loci L388 and L389 =' $subset2_num
     number of sequences in loci L388 and L389 = 106
 
 
+#### Object Oriented Python script
+To detect duplicates and remove all but one copy, a Python script was written and tested on the small subsets created in the section above.  
+The general framework was as follow: 
+1. Open the file that was given as the input. 
+2. Iterate through every line in the file. 
+    - The MSA file is a fasta file, therefore each sequences are made up of 2 lines. The first starts with `>` followed by the sequence's name, and the second contains the genomic sequence. 
+3. Initiate all the variable, including: 
+    - List of seqnames in a loci
+    - Previous loci number
+    - Dictionary to hold seqname and sequence information
+3. Determine whether the line starts with `>`. If yes, then process the seqname as described below 
+    - Determine the loci number from the seqname. 
+        - The format of the seqname is as follows: `L389|name|of|organism`; therefore, it can be split by `|` and using the index of 0 to obtain the loci number. 
+    - If the current loci number does not equal the previous loci number, that means a new loci started, therefore the list of seqnames needs to be emptied. 
+    - Adding seqname into list of unique seqname if it is not already in the list and add the seqname as a dictionary key with an empty value, e.g. `{"L389|Agrochola|circellaris":""}.
+4. If a line does not start with `>`, then it is a sequence of the previous line. Therefore it is added into the dictionary as the value of the last key in the dictionary. e.g. the sequence would be added to "seqname2" in the following dictionary: `{"L389|seqname1":"GTAGCTAGC", "L389|seqname2":""}`.
+- Save the output into a new file.  
 
-```bash
-%%bash
-head -n4 JM2_L388.fas
-tail -n4 JM2_L388_L389.fas
+#### Testing the program on the 2 smaller subsets  
+As seen, the number of duplicates removed by the script matched with the number of duplicates known in the subsetted sample. In addition, the names of the sequences removed were that from the duplicates seen in the screenshot in the data subsetting section.  
+Note: --dprint is an optional parameter that prints the seqnames of the removed duplicates. 
+
+
+```python
+!../programs/rm_loci_dupl.py "../data/dupl/L388_subset.fas" --dprint
 ```
 
-    >L389|Trichoplusia|ni,||comp0_consensus
-    CTGCACTTATCGTCGATGCCCTCGTAGGGGTAGGTCTTCTCGGTGTCGATGCCGCCGTTGTCCTTGATGTACTTAAAGGCGTTATCCATGAGGCCGCCGTTGCAGCCGTTGTTGCCGTACGCCGCCGAGCAGTCCACCAGGTTCTGCTCCGACAGAGACACCAGGTAGTGTGTCTTGCGGAAGTGCTGGCCCT-------------
-    >L389|Xestia|xanthographa,||comp0_consensus
-    CTGCACTTGTCATCGACGGCCTCGTACGGGTAAGACTTCTCGGTGTCGATGCCGCCGTTGTCCTTGATGTACTTGAAGGCGTTGTCCATGAGGCCACCGTTGCAGCCGTTGTTCCCGTACGCGGCCGAGCAGTCCACCAGATTTTGCTCCGACAGGGACACTAGGAAGCCGGTCTTGCGGAAGTGCTGGCCCTCC-----------
-    >L388|Abrostola|tripartita,||comp0_consensus
-    ---TGAAGGCCCAGCAGGAGCCGCACTTGCCCTGGTCCTTGACCTCAGTGACGGCGCCCTTCTTGCGCCAGTCCACCTGGTCGGGGTACGTCACGTGCGCGGGCGCAATGAACGTCGCGCCAC-----------------------------G
-    >L388|Agrochola|circellaris,||comp0_consensus
-    -----AACGCCCAGCAGGAGCCGCACTTGCCCTGGTCCTTGACATCGGTGACAGCGCCCTTCTTGCGCCAGTCCACCTGGTCGGGGTAGGACACGTGCGCCGGCGCGATGAAC----------------------------------------
+    53 sequences processed, 2 duplicates were removed.
+    Duplicate sequences that were removed are:
+    >L388|Hypena|proboscidalis,||comp0_consensus
+    >L388|Mythimna|albipuncta,||comp0_consensus
+    Saving results...
+    Resulting file named 'duplicates_removed_L388_subset.fas' saved - program is finished.
 
 
 
 ```python
-class Sequence:
-    def __init__(self, filename=''):
-        """
-        Initializes the object
-        
-        param mode: string, path of file to be edited
-        """
-        self.filename = filename  # name of file to be read 
-        self.seqdict = {}  # dictionary of sequence information ('seqname':genomic_sequence)
-        self.total_dup = 0
-        self.total_seq = 0 
-        
-        if filename:
-            self.open_file('r')
-            
-    def open_file(self, mode):
-        """
-        Opens file contained in self.filename and sets the filehandle as self.file 
-        If the file can't be opened, exit status will equal 1
-
-        param mode: string, mode for opening file, usually 'r' or 'w'
-        return: filehandle of opened file
-        """
-        try:
-            self.file = open(self.filename, mode)
-        except OSError:
-            print(f'Error opening file ({self.filename})')
-            # exit with status = 1
-            exit(1)
-            
-    def next_line(self):
-        """
-        Returns the next line from a file
-        
-        return: logical, True if line is read, False when end of file 
-        """
-        line = self.file.readline().strip() 
-        if not line: 
-            # no more line, file is finished
-            return False 
-        
-        self.line = line 
-        return True  #return True when there is still line to be read 
-    
-    def read_file(self): 
-        """
-        description
-        """
-        prev_loci_num = -100
-        seqnamelist = []  # list of seqnames (to find duplciates)
-                
-        while self.next_line():  # iterate through every lines in the file
-            if self.line.startswith('>'):  # line containing seqname 
-                self.total_seq += 1  # increase count of total number of sequences being processed 
-                loci_num, seqname = self.line.split('|', 1)  # split to get loci number and seqname 
-                if loci_num != prev_loci_num:  # new loci 
-                    seqnamelist = []  # reset the list 
-                prev_loci_num = loci_num
-                if seqname in seqnamelist:  # duplicate
-                    self.total_dup += 1
-                if seqname not in seqnamelist:  # seqname is new (not a duplicate)
-                    seqnamelist.append(seqname)  # add seqname to list of seqnames 
-                    self.seqdict[self.line] = ''  # record the seqname 
-            else:  # actual sequence of that loci  
-                last_key = list(self.seqdict.keys())[-1]  # access the last key created in dictionary 
-                self.seqdict[last_key] += self.line  # add line (sequence) as value of key 
-                
-    def save_output(self):
-        """
-        description 
-        """
-        out = 'duplicates_removed_'+self.filename  # name for output file 
-        with open(out, 'w') as f:
-            for key, value in self.seqdict.items():
-                f.write(key)
-                f.write('\n')
-                f.write(value)
-                f.write('\n')
-        
-        print("Results saved - program is finished.")
-        print(str(self.total_seq) + ' sequences processed, ' + str(self.total_dup) + ' duplicates removed.')
+!../programs/rm_loci_dupl.py "../data/dupl/L388_L389_subset.fas" --dprint
 ```
 
-### Running the program on the 2 smaller subsets
----------------------------------------------------------
+    106 sequences processed, 6 duplicates were removed.
+    Duplicate sequences that were removed are:
+    >L388|Hypena|proboscidalis,||comp0_consensus
+    >L388|Mythimna|albipuncta,||comp0_consensus
+    >L389|Agrochola|macilenta,||comp0_consensus
+    >L389|Euproctis|similis,||comp0_consensus
+    >L389|Hypena|proboscidalis,||comp0_consensus
+    >L389|Mythimna|albipuncta,||comp0_consensus
+    Saving results...
+    Resulting file named 'duplicates_removed_L388_L389_subset.fas' saved - program is finished.
+
+
+#### Running the program on the actual dataset
 
 
 ```python
-if __name__ == '__main__':
-    JM2_subset1_path = 'JM2_L388.fas'  # path to the subsetted file 
-    JM2_subset1 = Sequence(JM2_subset1_path)  # create Sequence object and open file
-    JM2_subset1.read_file()  # process the file 
-    JM2_subset1.save_output()  # save file
-    
-    
-    JM2_subset2_path = 'JM2_L388_L389.fas'  # path to the subsetted file 
-    JM2_subset2 = Sequence(JM2_subset2_path)  # create Sequence object and open file
-    JM2_subset2.read_file()  # process the file 
-    JM2_subset2.save_output()  # save file
+!../programs/rm_loci_dupl.py "../data/dupl/sl_SINGLE_COPY_FOR_JM2.fas"
 ```
 
-    Results saved - program is finished.
-    53 sequences processed, 2 duplicates removed.
-    Results saved - program is finished.
-    106 sequences processed, 6 duplicates removed.
+    42119 sequences processed, 746 duplicates were removed.
+    Saving results...
+    Resulting file named 'duplicates_removed_sl_SINGLE_COPY_FOR_JM2.fas' saved - program is finished.
 
 
-
-```bash
-%%bash
-result1=`grep '>' duplicates_removed_JM2_L388.fas | wc -l`
-result2=`grep '>' duplicates_removed_JM2_L388_L389.fas | wc -l`
-echo 'Total number of sequences in L388 after duplicate removal =' $result1
-echo 'Total number of sequences in L388 and L389 after duplicate removal =' $result2
-```
-
-    Total number of sequences in L388 after duplicate removal = 51
-    Total number of sequences in L388 and L389 after duplicate removal = 100
-
-
-### Running the program on the actual dataset
------------------------------------------------------------------
-
-
-```python
-if __name__ == '__main__':
-    JM2_path = 'sl_SINGLE_COPY_FOR_JM2.fas'  # path to the file 
-    JM2 = Sequence(JM2_path)  # create Sequence object and open file
-    JM2.read_file()  # process the file 
-    JM2.save_output()  # save file
-```
-
-    Results saved - program is finished.
-    42119 sequences processed, 746 duplicates removed.
-
-
-
-```bash
-%%bash
-result=`grep '>' duplicates_removed_sl_SINGLE_COPY_FOR_JM2.fas | wc -l`
-echo 'Total number of sequences in the resulting file after duplicate removal =' $result
-```
-
-    Total number of sequences in the resulting file after duplicate removal = 41373
-
-
-
-```python
-
-```
+### Results
+-------------------------------------------------
+Originally, when the file containing duplicates were opened in Aliview, an alignment viewer and editor software, a pop-up window would warn of the duplicates. When the output file from processing the original file was opened in Aliview, the software did not detect any duplicates. In addition, the output file worked as a proper input into Dr. Martinez's phyogenetic analysis pipeline. 
