@@ -20,7 +20,7 @@ Below are some of the things that I have worked on. Just click to jump to the de
 ### Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>
 ----------------------------------------------------------------------------------
 #### Crocheted Flowers: 
-***Description coming soon!***  
+*Description coming soon!*
 
 <div id="image-table">
     <table>
@@ -128,7 +128,7 @@ This second planter was made using a pottery wheel, hence its sides are straight
 #### Acrylic Deathclaw Painting on Canvas:  
 <div id="image-table">
     <table>
-	    <tr>
+	<tr>
     	    <td style="padding:10px">
         	    <img src="/assets/img/my-art/paintings/paint_0c.png" width="220"/>
       	    </td>
@@ -149,20 +149,20 @@ This second planter was made using a pottery wheel, hence its sides are straight
 
 <div id="image-table">
     <table>
-	    <tr>
+	<tr>
     	    <td style="padding:10px">
-        	    <img src="/assets/img/my-art/drawings/draw_0.png" width="220"/>
+        	<img src="/assets/img/my-art/drawings/draw_1.png" width="220"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/drawings/draw_1.png" width="220"/>
+            	<img src="/assets/img/my-art/drawings/draw_4a.png" width="220"/>
             </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/drawings/draw_2.png" width="220"/>
+            	<img src="/assets/img/my-art/drawings/draw_4b.png" width="220"/>
             </td>
         </tr>
 	    <tr>
     	    <td style="padding:10px">
-        	    <img src="/assets/img/my-art/drawings/draw_3a.png" width="220"/>
+        	<img src="/assets/img/my-art/drawings/draw_3a.png" width="220"/>
       	    </td>
             <td style="padding:10px">
             	<img src="/assets/img/my-art/drawings/draw_3b.png" width="220"/>
@@ -171,37 +171,36 @@ This second planter was made using a pottery wheel, hence its sides are straight
             	<img src="/assets/img/my-art/drawings/draw_3c.png" width="220"/>
             </td>
         </tr>
-	    <tr>
-    	    <td style="padding:10px">
-        	    <img src="/assets/img/my-art/drawings/draw_4a.png" width="220"/>
-      	    </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/drawings/draw_4b.png" width="220"/>
-            </td>
-	    <td>&nbsp;</td>
-        </tr>
     </table>
 </div>
+
 
 #### Ink:  
 
 <div id="image-table">
     <table>
-	    <tr>
-    	    <td style="padding:10px; text-align: center; vertical-align: middle;">
-        	    <img src="/assets/img/my-art/ink/ink_0.png" width="320"/>
-      	    </td>
-            <td style="padding:10px; text-align: center; vertical-align: middle;">
-            	<img src="/assets/img/my-art/ink/ink_1.png" width="320"/>
-	    </td>
+	<tr>
+    	  <td style="padding:10px; text-align: center; vertical-align: middle;">
+            <img src="/assets/img/my-art/ink/ink_0.png" width="320"/>
+      	  </td>
+          <td style="padding:10px; text-align: center; vertical-align: middle;">
+            <img src="/assets/img/my-art/ink/ink_1.png" width="320"/>
+	  </td>
+	  <td>
+	    <img src="/assets/img/my-art/ink/ink_2.png" width="320"/>	  
+	  </td>
+	  
         </tr>
-	    <tr>
-    	    <td style="padding:10px; text-align: center; vertical-align: middle;">
-        	    <img src="/assets/img/my-art/ink/ink_2.png" width="320"/>
-      	    </td>
-            <td style="padding:10px; text-align: center; vertical-align: middle;">
-            	<img src="/assets/img/my-art/ink/ink_3.png" width="320"/>
-	    </td>
+	<tr>
+    	  <td style="padding:10px; text-align: center; vertical-align: middle;">
+            <img src="/assets/img/my-art/ink/ink_3.png" width="320"/>
+      	  </td>
+          <td style="padding:10px; text-align: center; vertical-align: middle;">
+            <img src="/assets/img/my-art/drawings/draw_0.png" width="220"/>
+	  </td>
+	  <td>
+	    <img src="/assets/img/my-art/drawings/draw_2.png" width="220"/>
+	  </td>
         </tr>
     </table>
 </div>
