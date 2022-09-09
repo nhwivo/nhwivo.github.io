@@ -15,7 +15,6 @@ To remove the duplicates within each loci, an object oriented Python script was 
 ### Procedures
 -------------------------------------------
 #### Subsetting the MSA file
--------------------------------------------
 2 loci, L388 and L389, were chosen to test the script to make sure duplicates are removed correctly. *L388*, as seen in the photo below, contained *2 duplicates* that needed to be removed. 
 ![L388](/assets/img/loci_duplication_img/L388_dup_problem.png)
 
