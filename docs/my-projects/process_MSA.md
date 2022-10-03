@@ -9,7 +9,7 @@ nav_order: 1
 ### Introduction
 ---------------------------------------------------------------
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While working with Dr. Martinez, a postdoctoral researcher from <a href="https://www.floridamuseum.ufl.edu/kawahara-lab/" target="_blank">Kawahara Lab</a>, a research lab investigating the evolution of butterflies and moths at the Florida Museum of Natural History, I was presented with a problem pertaining to cleaning a multiple sequence alignment (MSA) file.   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This MSA file contained <a href="https://www.genome.gov/genetics-glossary/Locus" target="_blank">loci</a>, whcih are the locations of genes within a genome) important for Dr. Martinez's <a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Introductory_Biology_(CK-12)/05%3A_Evolution/5.12%3A_Phylogenetic_Classification" target="_blank">phylogenetic classification</a> of the Noctuoidea (owlet moth) family. However, there were genetic information in the regions between these loci, also called flanking regions, that prevented proper phylogenetic analysis. Therefore they needed to be removed.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This MSA file contained <a href="https://www.genome.gov/genetics-glossary/Locus" target="_blank">loci</a>, which are the locations of genes within a genome, important for Dr. Martinez's <a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Introductory_Biology_(CK-12)/05%3A_Evolution/5.12%3A_Phylogenetic_Classification" target="_blank">phylogenetic classification</a> of the Noctuoidea (owlet moth) family. However, there were genetic information in the regions between these loci, also called flanking regions, that prevented proper phylogenetic analysis. Therefore, they needed to be removed.   
 ![MSA_problem](/assets/img/process_MSA_problem.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the past, this issue has been resolved by manually deleting regions between the loci. With this particular dataset, however, the number of flanking regions that needed to be cleaned was too large (385 sequences each with many loci), which proved tedious and time consuming to be done by hand.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To remove the extra data in these flanking regions, I wrote an *object oriented Python script* that iterates through every sequences in a given multiple alignment file, and edits them so that each flanking regions are like that of a given reference genome. The full script can be found on my <a href="https://github.com/nhwivo/clean-MSA-loci/blob/main/clean_MSA_loci.py" target="_blank">Github</a>.
@@ -42,7 +42,7 @@ In the script, a *Sequence* class was created with the appropriate attributes an
 The ***pseudocode*** was as follow:
 1. Open the file that contains the MSA data.
 2. Iterate through every line in the file.
-    - The MSA file is similiar to a fasta file, in that each sequences takes up 2 lines, the first starts with `>` and the sequence's name, the second contains the sequence information itself. Therefore the file can be parsed into seqname and the sequence itself easily. 
+    - The MSA file is similar to a fasta file, in that each sequences takes up 2 lines, the first starts with `>` and the sequence's name, the second contains the sequence information itself. Therefore the file can be parsed into seqname and the sequence itself easily. 
 3. Parse each line depending on whether it starts with '>' and pass onto a Python dictionary. 
     - The seqnames are assigned to dictionary keys with the corresponding genomic sequence as their value.
         - Example: `{"seqname1":"ACTATCTCGATCA", "seqname2":"CCTATCTCGATCA"}`
@@ -73,7 +73,7 @@ To make sure the script works on the smaller subset before running it on the lar
 
 
 #### Checking the resulting cleaned subset
-Before the cleaning was done, the 2nd sequence in the un-processed file, *L0000444_LEP31542_Noctuidae_Lymantriinae_Spilosoma_lubricipeda*, has 2 flanking regions that contained sequence data (compared to the gaps in the reference genome BMORI). These 2 regions were later compared with the output from the section above to ensure the script worked sucessfully on this subset.
+Before the cleaning was done, the 2nd sequence in the un-processed file, *L0000444_LEP31542_Noctuidae_Lymantriinae_Spilosoma_lubricipeda*, has 2 flanking regions that contained sequence data (compared to the gaps in the reference genome BMORI). These 2 regions were later compared with the output from the section above to ensure the script worked successfully on this subset.
 
 
 ```bash
@@ -154,6 +154,6 @@ Finally, the script was ran on the original file named *FcC_supermatrix_nv.fas*,
 ### Results
 ---------------------------------------------------------------
 *Aliview*, an alignment viewer and editor software, was used to visually check the results. 
-As seen in a snipet of the cleaned result below, flanking regions between other sequences are cleaned based on the reference genome _BMORI_R.
+As seen in a snippet of the cleaned result below, flanking regions between other sequences are cleaned based on the reference genome _BMORI_R.
 
 ![MSA_result](/assets/img/process_MSA_result.png)
