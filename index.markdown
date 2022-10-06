@@ -28,7 +28,7 @@ This site includes some of the work I have done during my undergraduate research
 	<li>Familiarity with object-oriented programming methodologies</li>
 	<li>Familiarity with R for data analysis and data visualization</li>
 	<li>Familiarity with code version control tools (Github)</li>
-	<li>Facility with Linux/UNIX operating systems and running running/scripting applications from the command line</li>
+	<li>Facility with Linux/UNIX operating systems and running/scripting applications from the command line</li>
 	<li>Competency working in a Linux HPC cluster environment (SLURM)</li>
 	<li>Experience working with bioinformatics tool and databases, including NCBI, KEGG, IGV, and etc.</li>
 	<li>Proficiency in standard bioinformatics programming languages such as bash, sed, and awk</li>
