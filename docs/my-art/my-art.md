@@ -92,7 +92,7 @@ Crocheted tulips following da Mira's tutorial on <a href="https://www.youtube.co
         	    <img src="/assets/img/my-art/crochet/flowers1.jpg" width="220"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/crochet/flowers0jpg" width="220"/>
+            	<img src="/assets/img/my-art/crochet/flowers0.jpg" width="220"/>
             </td>
             <td style="padding:10px">
             	<img src="/assets/img/my-art/crochet/flowers2.jpg" width="220"/>
