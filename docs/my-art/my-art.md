@@ -83,7 +83,7 @@ Below are some of the things that I have worked on. Just click to jump to the de
 ### Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>
 ----------------------------------------------------------------------------------
 #### Crocheted Flowers: 
-*Description coming soon!*
+Crocheted tulips following da Mira's tutorial on <a href="https://www.youtube.com/watch?v=L_k_xocVJXE" target="_blank">Youtube</a> and crocheted lily of the valley flowers were made following Jovelyn B.'s <a href="https://www.youtube.com/watch?v=Usio-jKwm9U" target="_blank">tutorial</a>. I obtained the glassware for free from Lily, Purdue's Hall of Life Sciences. 
 
 <div id="image-table">
     <table>
@@ -92,14 +92,19 @@ Below are some of the things that I have worked on. Just click to jump to the de
         	    <img src="/assets/img/my-art/crochet/flowers1.jpg" width="220"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/crochet/flowers2.jpg" width="220"/>
+            	<img src="/assets/img/my-art/crochet/flowers4.jpg" width="220"/>
             </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/crochet/flowers3.jpg" width="220"/>
+            	<img src="/assets/img/my-art/crochet/flowers2.jpg" width="220"/>
             </td>
         </tr>
     </table>
 </div>
+
+Bonus: minature version of the flowers above. The small tulips were made by reducing the number of rows in the flower. 
+<figure>
+<img src="/assets/img/my-art/crochet/flowers_small.jpg" alt="Trulli" style="width:35%">
+</figure>
 
 
 #### Crocheted Dragon Scale Dice Pouches: 
@@ -135,6 +140,24 @@ The green beanie was made by knitting a rectangle and sewing the sides together.
             </td>
             <td style="padding:10px">
             	<img src="/assets/img/my-art/crochet/knitted_hat.jpg" width="220"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+#### Giant Bee !! 
+Giant Bee! Made following Toristory Creations' <a href="https://www.youtube.com/watch?v=ONLqhR5kwpY" target="_blank">turorial</a>. 
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/crochet/bee1.jpg.jpg" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/crochet/bee2.jpg.jpg" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	&nbsp;
             </td>
         </tr>
     </table>
