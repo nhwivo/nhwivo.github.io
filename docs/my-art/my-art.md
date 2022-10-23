@@ -151,10 +151,10 @@ Giant Bee! Made following Toristory Creations' <a href="https://www.youtube.com/
     <table>
 	    <tr>
     	    <td style="padding:10px">
-        	    <img src="/assets/img/my-art/crochet/bee1.jpg.jpg" width="220"/>
+        	    <img src="/assets/img/my-art/crochet/bee1.jpg" width="220"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/crochet/bee2.jpg.jpg" width="220"/>
+            	<img src="/assets/img/my-art/crochet/bee2.jpg" width="220"/>
             </td>
             <td style="padding:10px">
             	&nbsp;
