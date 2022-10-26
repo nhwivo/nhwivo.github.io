@@ -142,10 +142,10 @@ A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting"
     <table>
 	<tr>
     	    <td style="padding:10px">
-        	    <img src="/assets/img/my-art/paintings/ikit_claw1.jpg" width="220"/>
+        	    <img src="/assets/img/my-art/paintings/ikit_claw2.jpg" width="220"/>
       	    </td>
             <td style="padding:10px">
-            	<img src="/assets/img/my-art/paintings/ikit_claw2.jpg" width="220"/>
+            	<img src="/assets/img/my-art/paintings/ikit_claw1.jpg" width="220"/>
             </td>
             <td style="padding:10px">
             	<img src="/assets/img/my-art/paintings/ikit_claw3.jpg" width="220"/>
