@@ -80,6 +80,81 @@ Below are some of the things that I have worked on. Just click to jump to the de
 </div>
 
 
+### Paintings   <a class="anchor" id="paintings"></a>
+--------------------------------------------------------------------------
+#### Acrylic Deathclaw Painting on Canvas:  
+<div id="image-table">
+    <table>
+	<tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/paintings/paint_0c.png" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/paintings/paint_0a.png" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/paintings/paint_0b.png" width="220"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+#### Acrylic Minecraft Painting Painting on Canvas:  
+A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting" target="_blank">Minecraft</a>.
+<div id="image-table">
+    <table>
+	<tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/paintings/MC1.jpg" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/paintings/MC2.jpg" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/paintings/MC3.jpg" width="220"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+#### Acrylic Lanscape Painting on Canvas:  
+<div id="image-table">
+    <table>
+	<tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/paintings/landscape1.jpg" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/paintings/landscape2.jpg" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/paintings/landscape3.jpg" width="220"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+#### Acrylic Ikit Claw Painting on Canvas:  
+<div id="image-table">
+    <table>
+	<tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/paintings/ikit_claw1.jpg" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/paintings/ikit_claw2.jpg" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/paintings/ikit_claw3.jpg" width="220"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
 ### Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>
 ----------------------------------------------------------------------------------
 #### Crocheted Flowers: 
@@ -169,26 +244,6 @@ Plastic bags can be converted to plarn using the technique seen in this <a href=
 <figure>
 <img src="/assets/img/my-art/crochet/plarn_bag.jpg" alt="Trulli" style="width:35%">
 </figure>
-
-
-### Paintings   <a class="anchor" id="paintings"></a>
---------------------------------------------------------------------------
-#### Acrylic Deathclaw Painting on Canvas:  
-<div id="image-table">
-    <table>
-	<tr>
-    	    <td style="padding:10px">
-        	    <img src="/assets/img/my-art/paintings/paint_0c.png" width="220"/>
-      	    </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/paintings/paint_0a.png" width="220"/>
-            </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/paintings/paint_0b.png" width="220"/>
-            </td>
-        </tr>
-    </table>
-</div>
 
 
 ### Ceramics <a class="anchor" id="ceramics"></a>
