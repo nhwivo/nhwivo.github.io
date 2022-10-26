@@ -178,7 +178,7 @@ Crocheted tulips following da Mira's tutorial on <a href="https://www.youtube.co
 
 Bonus: minature version of the flowers above. The small tulips were made by reducing the number of rows in the flower. 
 <figure>
-<img src="/assets/img/my-art/crochet/flowers_small.jpg" alt="Trulli" style="width:220">
+<img src="/assets/img/my-art/crochet/flowers_small.jpg" alt="Trulli" style="width:30%">
 </figure>
 
 
