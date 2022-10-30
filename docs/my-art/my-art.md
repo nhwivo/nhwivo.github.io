@@ -158,8 +158,7 @@ A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting"
 ### Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>
 ----------------------------------------------------------------------------------
 #### Crocheted Flowers: 
-Crocheted tulips following da Mira's tutorial on <a href="https://www.youtube.com/watch?v=L_k_xocVJXE" target="_blank">Youtube</a> and crocheted lily of the valley flowers were made following Jovelyn B.'s <a href="https://www.youtube.com/watch?v=Usio-jKwm9U" target="_blank">tutorial</a>. I obtained the glassware for free from Lily, Purdue's Hall of Life Sciences. 
-
+Crocheted tulips following da Mira's tutorial on <a href="https://www.youtube.com/watch?v=L_k_xocVJXE" target="_blank">Youtube</a> and crocheted lily of the valley flowers were made following Jovelyn B.'s <a href="https://www.youtube.com/watch?v=Usio-jKwm9U" target="_blank">tutorial</a>. The glasswares were upcycled from unwanted glassware in biology labs at Lily, Purdue's Hall of Life Sciences. 
 <div id="image-table">
     <table>
 	    <tr>
