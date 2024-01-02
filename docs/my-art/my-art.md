@@ -2,7 +2,7 @@
 layout: default
 title:  "My Art!"
 nav_order: 3
-permalink: /docs/my-art
+permalink: /docs/art
 ---
 <h1>My Artworks</h1>  
 Welcome to my art page! Here, I showcase some of the arts and crafts that I have made, along with brief descriptions of what I did for each project.  
